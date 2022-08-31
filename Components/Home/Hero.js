@@ -1,7 +1,7 @@
 import React from "react";
 const Hero = () => {
   return (
-    <div className="container mx-auto flex justify-between items-center mt-20" >
+    <div className="container mx-auto flex justify-between items-center mt-20 flex-wrap">
       <div className="">
         <div className="flex items-center gap-3">
           <hr className="w-10 bg-gray-200 " />
@@ -29,7 +29,7 @@ const Hero = () => {
         </div>
     
       </div>
-      <div className="relative">
+      <div className="relative mt-10 sm:mt-0">
         <img className="w-14 animate-bounce transition duration-3000 absolute top-0 -left-5" src="/Assets/figma.png" alt="" />
         <img className="w-32 animate-bounce absolute bottom-0 -left-10" src="/Assets/nextjs.png" alt="" />
         <img className="w-96 " src="/Assets/rownok.png" alt="" />
