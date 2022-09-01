@@ -52,7 +52,7 @@ const Nav = () => {
                 </a>
                 <a
                   href="#"
-                  className="font-medium text-[18px] py-2 px-4 text-white capitalize bg-blue-400 hover:bg-blue-600 rounded-[20px] transition duration-300 hover:scale-105 "
+                  className="font-medium text-[18px] py-2 px-4 text-white capitalize bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 rounded-[20px] transition duration-300 hover:scale-105 "
                 >
                     Download CV
                 </a>
