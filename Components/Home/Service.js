@@ -3,9 +3,9 @@ import React from "react";
 const Service = () => {
   return (
     <div className="container mx-auto items-center py-10 ">
-      <div className="flex items-center gap-3">
-        <hr className="w-10 border-orange-500 border" />
-        <span className="md:text-[18px] font-medium text-gray-800 mb-5">
+      <div className="flex items-center gap-3 mb-5">
+        <hr className="w-10 bg-orange-500 " />
+        <span className="md:text-[18px] font-medium text-gray-800 ">
           My Latest Design & Development
         </span>
       </div>
