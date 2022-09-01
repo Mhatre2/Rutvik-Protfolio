@@ -9,21 +9,21 @@ const Hero = () => {
       <div className="">
         <div className="flex items-center gap-3">
           <hr className="w-10 bg-gray-800 " />
-          <span className="text-[18px] font-medium text-gray-800">
+          <span className="md:text-[18px] font-medium text-gray-800">
             UI/UX Designer  Developer
           </span>
         </div>
-        <p className="text-[55px] font-bold leading-tight">
+        <p className="text-[32px] md:text-[40px] lg:text-[45px] xl:text-[55px] font-bold leading-tight">
           I'm Rownok Mahbub <br />
           Designer And Developer
         </p>
-        <p className="mt-5 text-md">
+        <p className="mt-5 md:text-md">
           I'm creative designer based in Bangladesh, and I'm very passionate and
           dedicated to my <br /> work.IYour Satisfaction is my success
         </p>
         <div className="flex gap-4 mt-10">
        
-        <button className="font-medium text-[16px] flex items-center py-4 px-8 rounded-xl capitalize bg-gradient-to-r from-green-500 to-blue-500 hover:from-pink-500 hover:to-yellow-500  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass">Get In Touch
+        <button className="font-medium text-[16px] flex items-center px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-green-500 to-blue-500 hover:from-pink-500 hover:to-yellow-500  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass">Get In Touch
           <span className="animate-ping absolute right-0 top-0 w-2 h-2  rounded-full bg-gradient-to-r from-pink-400 to-red-500 "></span>
          </button>
          <img className="cursor-pointer" src="/Assets/facebook.svg" alt="" />
