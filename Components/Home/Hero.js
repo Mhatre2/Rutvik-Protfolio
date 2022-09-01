@@ -7,7 +7,7 @@ const Hero = () => {
     <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-20 bg-gradient-to-t from-[#fffaf3] to-[#fcfbee]">
       <div className="">
         <div className="flex items-center gap-3">
-          <hr className="w-10 border-orange-500 " />
+          <hr className="w-10 border-orange-500 border"/>
           <span className="md:text-[18px] font-medium text-gray-800">
             UI/UX Designer  Developer
           </span>
