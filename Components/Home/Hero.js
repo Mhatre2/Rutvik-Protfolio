@@ -2,7 +2,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-    <div className="relative h-screen bg-gradient-to-t from-[#fffbf5] to-[#fffef4] pt-10 sm:pt-0">
+    <div className="relative  bg-gradient-to-t from-[#fffbf5] to-[#fffef4] pt-10 sm:pt-0 mb-10">
  
     <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-20 bg-gradient-to-t from-[#fffbf5] to-[#fffef4]">
       <div className="">
@@ -18,7 +18,7 @@ const Hero = () => {
         </p>
         <p className="mt-5 md:text-md">
           I'm creative designer based in Bangladesh, and I'm very passionate and
-          dedicated to my <br className="hidden md:block" /> work.IYour Satisfaction is my success
+          dedicated to my <br className="hidden md:block" /> work.Your Satisfaction is my success
         </p>
         <div className="flex gap-4 mt-10">
        
