@@ -13,9 +13,9 @@ const Hero = () => {
             UI/UX Designer  Developer
           </span>
         </div>
-        <p className="text-[32px] md:text-[40px] lg:text-[45px] xl:text-[55px] font-bold leading-tight">
+        <p className="text-[40px] lg:text-[45px] xl:text-[55px] font-bold leading-tight">
           I'm Rownok Mahbub <br />
-          Designer And Developer
+          Designer And Developer 
         </p>
         <p className="mt-5 md:text-md">
           I'm creative designer based in Bangladesh, and I'm very passionate and
