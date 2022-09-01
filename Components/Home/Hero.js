@@ -13,7 +13,7 @@ const Hero = () => {
             UI/UX Designer  Developer
           </span>
         </div>
-        <p className="text-[40px] lg:text-[45px] xl:text-[55px] font-bold leading-tight">
+        <p className="text-[40px] lg:text-[45px] xl:text-[55px] font-bold leading-tight mt-5 sm:mt-0">
           I'm Rownok Mahbub <br />
           Designer And Developer 
         </p>
