@@ -9,7 +9,8 @@ const Nav = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-16">
         <div className="flex items-center justify-between h-16">
         <div className="flex-shrink-0">
-            <p className="font-bold"> RM.</p>
+            <p className="font-bold text-2xl"> RM <span className="text-primary
+            ">.</span></p>
             </div>
           <div className="flex items-center">
           
@@ -59,7 +60,7 @@ const Nav = () => {
               </div>
             </div>
           </div>
-          <div className="-mr-2 flex md:hidden">
+          <div className="-mr-2 flex flex-col md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
@@ -116,13 +117,14 @@ const Nav = () => {
         leaveTo="opacity-0 scale-95"
       >
         {(ref) => (
-          <div className="md:hidden" id="mobile-menu">
-            <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+          <div className="md:hidden " id="mobile-menu">
+            <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center">
               <a
                 href="#"
                 className="font-medium text-[18px]"
               >
                 About
+                
               </a>
 
               <a

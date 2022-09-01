@@ -18,14 +18,14 @@ module.exports = {
     fontFamily: {
       body: ["aller", "sans-serif"],
       pop: ["Poppins", "sans-serif"],
-      infinite: ["Infinite", "sans-serif"],
+      infinite: ["Outfit", "sans-serif"],
     },
     extend: {
       boxShadow: {
-        "3xl": "0vw 0vw 0.5vw 0vw rgb(32 32 32 / 12%)",
+        "3xl": "-1px 34px 47px -29px rgb(32 32 32 / 100%)",
         "4xl": " 0vw 0vw 0.5vw 0vw rgb(32 32 32 / 20%)",
         "5xl": " 0vw 0.5vw 0.5vw 0vw rgb(32 32 32 / 16%)",
-        glass: "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
+        glass: "0 8px 12px 0 rgba( 31, 38, 135, 0.37 )",
         "glass-card": "4px 4px 4px 4px rgba( 32, 32, 32, 0.37 )",
         "card-shadow": "0px 0px 12px #CCCCCC",
       },
