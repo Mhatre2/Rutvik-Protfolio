@@ -2,9 +2,9 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-    <div className="relative h-screen bg-gradient-to-t from-[#fffaf3] to-[#fcfbee] pt-10 sm:pt-0">
+    <div className="relative h-screen bg-gradient-to-t from-[#fffbf5] to-[#fffef4] pt-10 sm:pt-0">
  
-    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-20 bg-gradient-to-t from-[#fffaf3] to-[#fcfbee]">
+    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-20 bg-gradient-to-t from-[#fffbf5] to-[#fffef4]">
       <div className="">
         <div className="flex items-center gap-3">
           <hr className="w-10 border-orange-500 border"/>
