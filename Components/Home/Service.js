@@ -5,12 +5,12 @@ const Service = () => {
     <div className="container mx-auto items-center py-10 ">
       <div className="flex items-center gap-3">
         <hr className="w-10 border-orange-500 border" />
-        <span className="md:text-[18px] font-medium text-gray-800">
+        <span className="md:text-[18px] font-medium text-gray-800 mb-5">
           My Latest Design & Development
         </span>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
-        <div className="my-6 md:px-8 h-[500px]">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 ">
+        <div className="md:my-6 md:px-8 h-[500px]">
           <div className="bg-[#daddf1] relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer">
             <img className="md:h-[340px] transition duration-300 hover:scale-105 hover:blur-sm" src="/Assets/protfolio/foodepi.png" alt="" />
            
@@ -34,7 +34,7 @@ const Service = () => {
          
             </div>
         </div>
-        <div className="my-6 md:px-8 h-[500px]">
+        <div className="md:my-6 md:px-8 h-[500px]">
           <div className="bg-[#daddf1] relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer">
             <img className="md:h-[340px] transition duration-300 hover:scale-105 hover:blur-sm" src="/Assets/protfolio/ecommerce.png" alt="" />
            
