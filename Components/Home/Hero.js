@@ -2,7 +2,7 @@ import React from "react";
 const Hero = () => {
   return (
     <>
-    <div className="relative h-screen bg-gradient-to-t from-purple-50 to-violet-50">
+    <div className="relative h-screen bg-gradient-to-t from-purple-50 to-violet-50 pt-10 sm:pt-0">
       {/* <div className="bg-gradient-to-r from-purple-100 to-blue-100 rounded-full w-52 blur-md h-36 absolute right-0 -z-10 top-20"></div>
       <div className="bg-gradient-to-r from-yellow-100 to-pink-100 rounded-full w-52 blur-md h-44  absolute left-0 -z-10 bottom-0"></div> */}
     <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center gap-20 ">
