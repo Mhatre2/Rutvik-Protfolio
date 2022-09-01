@@ -17,7 +17,7 @@ const Service = () => {
           </div>
           <div className="flex justify-between pt-2">
           <div className="flex flex-col">
-          <p className=" text-xs md:text-md font-normal">Mobile App</p>
+          <p className=" text-xs md:text-sm font-normal">Mobile App</p>
             <p className="text-md md:text-2xl">Foodepi - Food And Restaurant app</p>
           </div>
           <div className="flex gap-3">
@@ -41,7 +41,7 @@ const Service = () => {
           </div>
           <div className="flex justify-between pt-2">
           <div className="flex flex-col">
-          <p className=" text-xs md:text-md font-normal">Mobile App</p>
+          <p className=" text-xs md:text-sm font-normal">Mobile App</p>
             <p className="text-md md:text-2xl">Foodepi - Food And Restaurant app</p>
           </div>
           <div className="flex gap-3">
