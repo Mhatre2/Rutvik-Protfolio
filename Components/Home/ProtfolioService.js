@@ -3,7 +3,7 @@ import React from 'react'
 const ProtfolioService = () => {
   return (
     <div className='container mx-auto items-center my-10 '>
-        <div className="grid grid-cols-3 gap-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-5">
             <div className=" items-center text-center px-6 py-6 rounded-2xl">
             <img className='w-24 mx-auto' src="/Assets/design.gif" alt="" />
                 <p className='text-2xl font-semibold'>Design With Emotion</p>
