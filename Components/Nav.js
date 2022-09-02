@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <div>
     <nav className="">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-16">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-16 fixed top-0 z-50 bg-white ">
         <div className="flex items-center justify-between h-16">
         <div className="flex-shrink-0">
             <p className="font-bold text-2xl animate__animated animate__fadeInDown animate__delay-1s"> RM <span className="text-orange-500
