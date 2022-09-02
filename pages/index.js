@@ -12,7 +12,7 @@ export default function Home() {
  <>
  <Nav/>
   <Hero className="overflow-hidden"/>
-  <Service/>
+  <Service className="overflow-hidden"/>
   <ProtfolioService/>
   {/* <ScrollToTop/> */}
  </>
