@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
-
+import 'animate.css';
 const Nav = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
@@ -9,13 +9,13 @@ const Nav = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-16">
         <div className="flex items-center justify-between h-16">
         <div className="flex-shrink-0">
-            <p className="font-bold text-2xl"> RM <span className="text-orange-500
+            <p className="font-bold text-2xl animate__animated animate__fadeInDown animate__delay-1s"> RM <span className="text-orange-500
             ">.</span></p>
             </div>
           <div className="flex items-center">
           
             <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-10">
+              <div className="ml-10 flex items-baseline space-x-10 animate__animated animate__fadeInDown animate__delay-1s">
                 <a
                   href="#"
                   className="font-medium text-[18px]"
