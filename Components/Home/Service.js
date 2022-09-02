@@ -7,8 +7,8 @@ const Service = () => {
   const [element,controls]= useScroll();
   return (
     <>
-     <div className="container mx-auto items-center py-10 overflow-x-hidden" ref={element}>
-      <motion.div className="flex items-center gap-3 mb-5 overflow-hidden"  variants={headerAnimation}
+     <div className="container mx-auto items-center py-10 overflow-hidden" ref={element}>
+      <motion.div className="flex items-center gap-3 mb-5" variants={headerAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}>
         <hr className="w-10 bg-orange-500 " />
@@ -16,14 +16,14 @@ const Service = () => {
           My Latest Design & Development
         </span>
       </motion.div>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-10 overflow-x-hidden">
-        <motion.div className="md:my-6 md:px-8 h-[500px] overflow-hidden"  variants={headerAnimation}
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-5 overflow-hidden">
+        <div className="md:my-6 md:px-8 h-[500px] overflow-hidden" >
+          <motion.div className="bg-[#daddf1] relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer"  variants={imageAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}>
-          <div className="bg-[#daddf1] relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer">
-            <img className="md:h-[340px] transition duration-300 hover:scale-105 hover:blur-sm" src="/Assets/protfolio/foodepi.png" alt="" />
+            <img className="md:h-[340px] transition duration-300 hover:scale-105 hover:blur-sm" src="/Assets/protfolio/foodepi.png" alt=""/>
            
-          </div>
+          </motion.div>
           <div className="flex justify-between pt-2">
           <div className="flex flex-col">
           <p className=" text-xs md:text-sm font-normal">Mobile App</p>
@@ -42,14 +42,14 @@ const Service = () => {
           </div>
          
             </div>
-        </motion.div>
-        <motion.div className="md:my-6 md:px-8 h-[500px] overflow-hidden" variants={rightAnimation}
+        </div>
+        <div className="md:my-6 md:px-8 h-[500px] overflow-hidden">
+        <motion.div className="bg-[#daddf1] relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer"  variants={imageAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}>
-          <div className="bg-[#daddf1] relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer">
             <img className="md:h-[340px] transition duration-300 hover:scale-105 hover:blur-sm" src="/Assets/protfolio/ecommerce.png" alt="" />
            
-          </div>
+          </motion.div>
           <div className="flex justify-between pt-2">
           <div className="flex flex-col">
           <p className=" text-xs md:text-sm font-normal">Mobile App</p>
@@ -68,7 +68,7 @@ const Service = () => {
           </div>
          
             </div>
-        </motion.div>
+        </div>
         
       </div>
     </div>
