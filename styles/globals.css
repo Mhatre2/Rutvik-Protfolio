@@ -5,6 +5,7 @@
  body{
     font-family: 'Outfit', sans-serif;
     scroll-behavior: smooth;
+    overflow-x: hidden;
  }
  body::-webkit-scrollbar{
    width: 7px;

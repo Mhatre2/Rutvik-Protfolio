@@ -2,11 +2,13 @@ import React from "react";
 import { motion } from "framer-motion";
 import { headerAnimation,imageAnimation, rightAnimation } from "../../styles/Animation";
 import { useScroll } from "../UseScroll";
+import {RiFacebookFill} from 'react-icons/ri'
+import {SiBehance} from 'react-icons/si'
 const Hero = () => {
   const [element,controls]= useScroll();
   return (
     <>
-    <div className="relative mt-10 bg-gradient-to-t from-[#fffbf5] to-[#fffef4] pt-10 sm:pt-0 mb-10" ref={element}>
+    <div className="relative mt-10 h-screen bg-gradient-to-t from-[#fffbf5] to-[#fffef4] pt-10 sm:pt-0 mb-10" ref={element}>
  
     <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-20 bg-gradient-to-t from-[#fffbf5] to-[#fffef4]">
     <motion.div
@@ -37,6 +39,8 @@ const Hero = () => {
          <img className="cursor-pointer " src="/Assets/facebook.svg" alt="" />
          <img className="cursor-pointer " src="/Assets/linkedin.svg" alt="" />
          <img className="cursor-pointer " src="/Assets/behance.svg" alt="" />
+         <RiFacebookFill className=""/>
+         <SiBehance/>
         </div>
     
       </motion.div>

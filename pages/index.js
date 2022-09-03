@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../Components/Home/Hero'
+import Protfolio from '../Components/Home/Protfolio'
 import ProtfolioService from '../Components/Home/ProtfolioService'
 import Service from '../Components/Home/Service'
 import Nav from '../Components/Nav'
@@ -14,6 +15,7 @@ export default function Home() {
   <Hero className="overflow-hidden"/>
   <Service className="overflow-hidden"/>
   <ProtfolioService/>
+  <Protfolio/>
   {/* <ScrollToTop/> */}
  </>
   )
