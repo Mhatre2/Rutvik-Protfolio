@@ -4,6 +4,7 @@ import {
   headerAnimation,
   imageAnimation,
   rightAnimation,
+  upAnimation
 } from "../../styles/Animation";
 import { useScroll } from "../UseScroll";
 const ProtfolioService = () => {
@@ -32,14 +33,16 @@ const ProtfolioService = () => {
     <div className="container mx-auto items-center my-10 " ref={element}>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-5 md:px-20">
         {Categories.map((category, i) => (
-          <div
+          <motion.div
             key={i}
-            className=" items-center text-center px-6 py-6 rounded-2xl"
+            className=" items-center text-center px-6 py-6 rounded-2xl"  variants={upAnimation}
+            animate={controls}
+            transition={{ delay: 0.1, type: "tween" }}
           >
             <img className="w-24 mx-auto" src={category.image} alt="" />
             <p className="text-2xl font-semibold">{category.title}</p>
             <p className="text-xl text-gray-800 pt-4 ">{category.text}</p>
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
