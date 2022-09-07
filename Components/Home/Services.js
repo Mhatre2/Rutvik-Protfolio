@@ -38,7 +38,7 @@ const Services = () => {
         
       ];
   return (
-    <div className='container mx-auto' ref={element}>
+    <div className='container mx-auto py-10' ref={element}>
          <motion.div className="flex items-center gap-3"  variants={leftAnimation}
                 animate={controls}
                 transition={{ delay: 0.1, type: "tween" }}>
@@ -61,11 +61,11 @@ const Services = () => {
                 transition={{ delay: 0.1, type: "tween" }}
               >
             
-                  <img className='w-32 h-32 object-fill' src={category.image} />
+                  <img className='w-20 h-20 lg:w-32 lg:h-32 object-fill' src={category.image} />
                   <div className='pl-3'>
-                  <p className='text-3xl font-medium pt-5'>{category.title}</p>
-                  <p className='text-xl pt-2'>Start From <span className='text-orange-400 pl-1'>{category.price}</span> </p>
-                <h4 className="text-gray-400 text-lg pt-5">
+                  <p className='text-xl lg:text-3xl font-medium pt-5'>{category.title}</p>
+                  <p className=' lg:text-xl pt-2'>Start From <span className='text-orange-400 pl-1'>{category.price}</span> </p>
+                <h4 className="text-gray-400 text-sm lg:text-lg pt-5">
                   {category.text}
                 </h4>
                   </div>

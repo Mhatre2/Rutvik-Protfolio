@@ -54,7 +54,7 @@ const Service = () => {
   ];
   return (
     <>
-     <div className="container mx-auto items-center  md:py-10" ref={element}>
+     <div className="container mx-auto items-center  py-10" ref={element}>
       <motion.div className="flex items-center gap-3 mb-5" variants={upAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}>
