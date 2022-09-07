@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import Footer from '../Components/Footer'
 import Hero from '../Components/Home/Hero'
 import NewsLetter from '../Components/Home/NewsLetter'
 import ProtfolioService from '../Components/Home/ProtfolioService'
@@ -18,6 +19,7 @@ export default function Home() {
   <ProtfolioService/>
   <Services/>
   <NewsLetter/>
+  <Footer/>
   {/* <ScrollToTop/> */}
  </>
   )
