@@ -3,6 +3,7 @@ import { downAnimation, leftAnimation, rightAnimation, textAnimation } from "../
 import { motion } from "framer-motion";
 import { headerAnimation,imageAnimation,upAnimation } from "../../styles/Animation";
 import { useScroll } from "../UseScroll";
+import {AiOutlineHeart,AiOutlineEye} from 'react-icons/ai'
 const Service = () => {
   const [element,controls]= useScroll();
   const Categories = [
@@ -14,8 +15,7 @@ const Service = () => {
       loved:"200",
       view:"23",
       image: "/Assets/protfolio/foodepi.png",
-      love: "/Assets/heart.svg",
-      eye: "/Assets/eye.svg",
+   
     },
     {
       id: 2,
@@ -25,8 +25,7 @@ const Service = () => {
       loved:"200",
       view:"23",
       image: "/Assets/protfolio/foodepi.png",
-      love: "/Assets/heart.svg",
-      eye: "/Assets/eye.svg",
+     
     },
     {
       id: 1,
@@ -36,8 +35,7 @@ const Service = () => {
       loved:"200",
       view:"23",
       image: "/Assets/protfolio/foodepi.png",
-      love: "/Assets/heart.svg",
-      eye: "/Assets/eye.svg",
+     
     },
     {
       id: 1,
@@ -47,19 +45,18 @@ const Service = () => {
       loved:"200",
       view:"23",
       image: "/Assets/protfolio/foodepi.png",
-      love: "/Assets/heart.svg",
-      eye: "/Assets/eye.svg",
+   
     },
     
   ];
   return (
     <>
-     <div className="container mx-auto items-center  py-10" ref={element}>
+     <div className="container mx-auto items-center bg-gradient-to-r from-[#010113] via-[#090014] to-[#010113] py-10" ref={element}>
       <motion.div className="flex items-center gap-3 mb-5" variants={upAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}>
-        <hr className="w-10 bg-orange-500 " />
-        <span className="lg:text-[18px] font-medium text-gray-800">
+        <hr className="w-10 bg-gray-500 " />
+        <span className="lg:text-[18px] font-medium text-gray-400">
           My Latest Design & Development
         </span>
       </motion.div>
@@ -75,23 +72,23 @@ const Service = () => {
                 key={i}
                 className="lg:my-6 lg:px-8 h-[500px] overflow-hidden"
               >
-                  <div className="bg-gradient-to-r from-[#f9f6fb] via-[#fef9ff] to-[#fcf3f8] relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer   hover:blur-sm">
+                  <div className="border border-gray-600 relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer   hover:blur-sm hover:border">
                   <img className='lg:h-[340px] transition duration-300 hover:scale-105" src="/Assets/protfolio/foodepi.png' src={category.image} />
                   </div>
                   <div className="flex justify-between pt-2">
           <div className="flex flex-col">
-          <p className=" text-xs lg:text-sm font-normal">{category.text}</p>
-            <p className="text-[16px] lg:text-2xl font-normal">{category.title}</p>
+          <p className=" text-xs lg:text-sm font-normal text-gray-300">{category.text}</p>
+            <p className="text-[16px] lg:text-2xl font-normal text-gray-100">{category.title}</p>
           </div>
           <div className="flex gap-1 lg:gap-3">
           <div className="flex items-center gap-1 cursor-pointer text-xs lg:text-lg">
-          <img className="w-4" src={category.love} alt="" />
-         <p className="text-xs">{category.loved}</p>
+          <AiOutlineHeart className="text-white"/>
+         <p className="text-xs text-gray-300">{category.loved}</p>
           </div>
           
           <div className="flex items-center gap-1 cursor-pointer text-xs lg:text-lg">
-          <img className="w-5" src={category.eye} alt="" />
-         <p className="text-xs">{category.view}</p>
+          <AiOutlineEye className="text-white"/>
+         <p className="text-xs text-gray-300">{category.view}</p>
           </div>
           </div>
          

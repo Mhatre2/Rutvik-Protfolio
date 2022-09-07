@@ -9,8 +9,8 @@ const Hero = () => {
   const [element,controls]= useScroll();
   return (
     <>
-    <div className="relative mt-15 bg-gradient-to-t from-[#fffbf5] to-[#fffef4] pt-10 sm:pt-0 mb-10" ref={element}>
-    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-20 bg-gradient-to-t from-[#fffbf5] to-[#fffef4]">
+    <div className="relative md:h-screen mt-15 pt-10 sm:pt-0 bg-gradient-to-r from-[#030332] via-[#100113] to-[#030332]" ref={element}>
+    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-20 ">
     <motion.div
           className="content"
           variants={leftAnimation}
@@ -18,16 +18,16 @@ const Hero = () => {
           transition={{ delay: 0.2, type: "tween" }}
         >
         <div className="flex items-center gap-3">
-          <hr className="w-10 bg-orange-500 border "/>
-          <span className="md:text-[18px] font-medium text-gray-800 ">
+          <hr className="w-10 bg-white-500  "/>
+          <span className="md:text-[18px] font-medium text-gray-400 ">
             UI/UX Designer  Developer 
           </span>
         </div>
-        <p className="text-[40px] lg:text-[45px] xl:text-[55px] font-bold leading-tight mt-5 sm:mt-0 ">
+        <p className="text-[40px] lg:text-[45px] xl:text-[55px] font-bold leading-tight mt-5 sm:mt-0 text-gray-100">
           I'm Rownok Mahbub <br />
           Designer And Developer 
         </p>
-        <p className="mt-5 md:text-md ">
+        <p className="mt-5 md:text-md text-gray-400">
           I'm creative designer based in Bangladesh, and I'm very passionate and
           dedicated to my <br className="hidden md:block" /> work.Your Satisfaction is my success
         </p>
@@ -37,9 +37,9 @@ const Hero = () => {
           <span className="animate-ping absolute right-0 top-0 w-3 h-3  rounded-full bg-gradient-to-r from-orange -400 to-orange-700 "></span>
          </button>
      
-         <RiFacebookFill className="cursor-pointer text-2xl"/>
-         <FiLinkedin className="cursor-pointer text-2xl"/>
-         <SiBehance className="cursor-pointer text-2xl"/>
+         <RiFacebookFill className="cursor-pointer text-2xl text-gray-300"/>
+         <FiLinkedin className="cursor-pointer text-2xl text-gray-300"/>
+         <SiBehance className="cursor-pointer text-2xl text-gray-300"/>
         </div>
     
       </motion.div>
