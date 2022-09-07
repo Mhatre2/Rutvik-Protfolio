@@ -1,7 +1,7 @@
 import React from "react";
-import { rightAnimation, textAnimation } from "../../styles/Animation";
+import { downAnimation, leftAnimation, rightAnimation, textAnimation } from "../../styles/Animation";
 import { motion } from "framer-motion";
-import { headerAnimation,imageAnimation } from "../../styles/Animation";
+import { headerAnimation,imageAnimation,upAnimation } from "../../styles/Animation";
 import { useScroll } from "../UseScroll";
 const Service = () => {
   const [element,controls]= useScroll();
@@ -55,7 +55,7 @@ const Service = () => {
   return (
     <>
      <div className="container mx-auto items-center  md:py-10" ref={element}>
-      <motion.div className="flex items-center gap-3 mb-5" variants={headerAnimation}
+      <motion.div className="flex items-center gap-3 mb-5" variants={upAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}>
         <hr className="w-10 bg-orange-500 " />
@@ -68,7 +68,7 @@ const Service = () => {
     
        
             {Categories.map((category, i) => (
-               <motion.div className=" md:px-8 h-[500px]"  variants={headerAnimation}
+               <motion.div className=" md:px-8 h-[500px]"  variants={upAnimation}
                animate={controls}
                transition={{ delay: 0.03, type: "tween" }}>
               <div
