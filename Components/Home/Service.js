@@ -70,7 +70,7 @@ const Service = () => {
             {Categories.map((category, i) => (
                <motion.div className=" md:px-8 h-[500px]"  variants={imageAnimation}
                animate={controls}
-               transition={{ delay: 0.2, type: "tween" }}>
+               transition={{ delay: 0.03, type: "tween" }}>
               <div
                 key={i}
                 className="md:my-6 md:px-8 h-[500px] overflow-hidden"

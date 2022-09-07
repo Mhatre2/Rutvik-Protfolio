@@ -45,7 +45,7 @@ const Hero = () => {
       </motion.div>
       <motion.div className="relative sm:mt-0 mt-10 px-6 sm:px-0"   variants={rightAnimation}
           animate={controls}
-          transition={{ delay: 0.2, type: "tween" }}>
+          transition={{ delay: 0.1, type: "tween" }}>
         <img className="w-14  top-14 sm:-left-5 hidden sm:absolute" src="/Assets/figma.png" alt="" />
         <img className="w-32 hidden sm:absolute  bottom-0 sm:-left-10" src="/Assets/nextjs.png" alt="" />
        
