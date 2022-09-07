@@ -14,12 +14,12 @@ export default function Home() {
   return (
  <>
  <Nav/>
-  <Hero className="overflow-hidden"/>
-  <Service className="overflow-hidden"/>
+  <Hero/>
+  <Service />
   <ProtfolioService/>
-  <Services/>
-  <NewsLetter/>
-  <Footer/>
+  {/* <Services/>
+  <NewsLetter/> */}
+  {/* <Footer/> */}
   {/* <ScrollToTop/> */}
  </>
   )

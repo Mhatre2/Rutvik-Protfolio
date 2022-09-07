@@ -54,16 +54,14 @@ const Service = () => {
   ];
   return (
     <>
-     <div className="container mx-auto items-center py-10 overflow-hidden" ref={element}>
-      <motion.div className="flex items-center gap-3 mb-5" variants={headerAnimation}
-          animate={controls}
-          transition={{ delay: 0.2, type: "tween" }}>
+     <div className="container mx-auto items-center py-10" >
+      <motion.div className="flex items-center gap-3 mb-5">
         <hr className="w-10 bg-orange-500 " />
         <span className="md:text-[18px] font-medium text-gray-800">
           My Latest Design & Development
         </span>
       </motion.div>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-5 overflow-hidden">
+      <div className="grid grid-cols-1 md:grid-cols-2">
        
     
        
@@ -81,13 +79,13 @@ const Service = () => {
           <p className=" text-xs md:text-sm font-normal">{category.text}</p>
             <p className="text-md md:text-2xl">{category.title}</p>
           </div>
-          <div className="flex gap-3">
-          <div className="flex items-center gap-2 cursor-pointer text-xs md:text-lg">
+          <div className="flex gap-1 md:gap-3">
+          <div className="flex items-center gap-1 cursor-pointer text-xs md:text-lg">
           <img className="w-4" src={category.love} alt="" />
          <p >{category.loved}</p>
           </div>
           
-          <div className="flex items-center gap-2 cursor-pointer text-xs md:text-lg">
+          <div className="flex items-center gap-1 cursor-pointer text-xs md:text-lg">
           <img className="w-5" src={category.eye} alt="" />
          <p>{category.view}</p>
           </div>
