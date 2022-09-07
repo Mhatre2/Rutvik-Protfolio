@@ -5,6 +5,53 @@ import { headerAnimation,imageAnimation } from "../../styles/Animation";
 import { useScroll } from "../UseScroll";
 const Service = () => {
   const [element,controls]= useScroll();
+  const Categories = [
+    {
+      id: 1,
+      title: "Foodepi - Food And Restaurant app",
+      price:"288$",
+      text:"Mobile App",
+      loved:"200",
+      view:"23",
+      image: "/Assets/protfolio/foodepi.png",
+      love: "/Assets/heart.svg",
+      eye: "/Assets/eye.svg",
+    },
+    {
+      id: 2,
+      title: "Foodepi - Food And Restaurant app",
+      price:"288$",
+      text:"Mobile App",
+      loved:"200",
+      view:"23",
+      image: "/Assets/protfolio/foodepi.png",
+      love: "/Assets/heart.svg",
+      eye: "/Assets/eye.svg",
+    },
+    {
+      id: 1,
+      title: "Foodepi - Food And Restaurant app",
+      price:"288$",
+      text:"Mobile App",
+      loved:"200",
+      view:"23",
+      image: "/Assets/protfolio/foodepi.png",
+      love: "/Assets/heart.svg",
+      eye: "/Assets/eye.svg",
+    },
+    {
+      id: 1,
+      title: "Foodepi - Food And Restaurant app",
+      price:"288$",
+      text:"Mobile App",
+      loved:"200",
+      view:"23",
+      image: "/Assets/protfolio/foodepi.png",
+      love: "/Assets/heart.svg",
+      eye: "/Assets/eye.svg",
+    },
+    
+  ];
   return (
     <>
      <div className="container mx-auto items-center py-10 overflow-hidden" ref={element}>
@@ -17,58 +64,45 @@ const Service = () => {
         </span>
       </motion.div>
       <div className="grid grid-cols-1 md:grid-cols-2 md:gap-5 overflow-hidden">
-        <div className="md:my-6 md:px-8 h-[500px] overflow-hidden" >
-          <motion.div className="bg-[#daddf1] relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer"  variants={imageAnimation}
-          animate={controls}
-          transition={{ delay: 0.2, type: "tween" }}>
-            <img className="md:h-[340px] transition duration-300 hover:scale-105 hover:blur-sm" src="/Assets/protfolio/foodepi.png" alt=""/>
-           
-          </motion.div>
-          <div className="flex justify-between pt-2">
+       
+    
+       
+            {Categories.map((category, i) => (
+               <div className=" md:px-8 h-[500px]">
+              <div
+                key={i}
+                className="md:my-6 md:px-8 h-[500px] overflow-hidden"
+              >
+                  <div className="bg-[#daddf1] relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer   hover:blur-sm">
+                  <img className='md:h-[340px] transition duration-300 hover:scale-105" src="/Assets/protfolio/foodepi.png' src={category.image} />
+                  </div>
+                  <div className="flex justify-between pt-2">
           <div className="flex flex-col">
-          <p className=" text-xs md:text-sm font-normal">Mobile App</p>
-            <p className="text-md md:text-2xl">Foodepi - Food And Restaurant app</p>
+          <p className=" text-xs md:text-sm font-normal">{category.text}</p>
+            <p className="text-md md:text-2xl">{category.title}</p>
           </div>
           <div className="flex gap-3">
           <div className="flex items-center gap-2 cursor-pointer text-xs md:text-lg">
-          <img className="w-4" src="/Assets/heart.svg" alt="" />
-         <p >200</p>
+          <img className="w-4" src={category.love} alt="" />
+         <p >{category.loved}</p>
           </div>
           
           <div className="flex items-center gap-2 cursor-pointer text-xs md:text-lg">
-          <img className="w-5" src="/Assets/eye.svg" alt="" />
-         <p>200</p>
+          <img className="w-5" src={category.eye} alt="" />
+         <p>{category.view}</p>
           </div>
           </div>
          
             </div>
-        </div>
-        <div className="md:my-6 md:px-8 h-[500px] overflow-hidden">
-        <motion.div className="bg-[#daddf1] relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer"  variants={imageAnimation}
-          animate={controls}
-          transition={{ delay: 0.2, type: "tween" }}>
-            <img className="md:h-[340px] transition duration-300 hover:scale-105 hover:blur-sm" src="/Assets/protfolio/ecommerce.png" alt="" />
-           
-          </motion.div>
-          <div className="flex justify-between pt-2">
-          <div className="flex flex-col">
-          <p className=" text-xs md:text-sm font-normal">Mobile App</p>
-            <p className="text-md md:text-2xl">Foodepi - Food And Restaurant app</p>
-          </div>
-          <div className="flex gap-3">
-          <div className="flex items-center gap-2 cursor-pointer text-xs md:text-lg">
-          <img className="w-4" src="/Assets/heart.svg" alt="" />
-         <p >200</p>
-          </div>
+                  
+              
+                  </div>
+              </div>
+            ))}
           
-          <div className="flex items-center gap-2 cursor-pointer text-xs md:text-lg">
-          <img className="w-5" src="/Assets/eye.svg" alt="" />
-         <p>200</p>
-          </div>
-          </div>
          
-            </div>
-        </div>
+        
+    
         
       </div>
     </div>

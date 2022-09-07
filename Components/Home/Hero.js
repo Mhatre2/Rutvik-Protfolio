@@ -4,6 +4,7 @@ import { headerAnimation,imageAnimation, rightAnimation } from "../../styles/Ani
 import { useScroll } from "../UseScroll";
 import {RiFacebookFill} from 'react-icons/ri'
 import {SiBehance} from 'react-icons/si'
+import {FiLinkedin} from 'react-icons/fi'
 const Hero = () => {
   const [element,controls]= useScroll();
   return (
@@ -31,16 +32,15 @@ const Hero = () => {
           I'm creative designer based in Bangladesh, and I'm very passionate and
           dedicated to my <br className="hidden md:block" /> work.Your Satisfaction is my success
         </p>
-        <div className="flex gap-4 mt-10">
+        <div className="flex gap-4 mt-10 items-center">
        
         <button className="font-medium text-[16px] flex items-center px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-orange-300 to-orange-500 hover:from-pink-500 hover:to-yellow-500  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass ">Get In Touch
           <span className="animate-ping absolute right-0 top-0 w-3 h-3  rounded-full bg-gradient-to-r from-orange -400 to-orange-700 "></span>
          </button>
-         <img className="cursor-pointer " src="/Assets/facebook.svg" alt="" />
-         <img className="cursor-pointer " src="/Assets/linkedin.svg" alt="" />
-         <img className="cursor-pointer " src="/Assets/behance.svg" alt="" />
-         <RiFacebookFill className=""/>
-         <SiBehance/>
+     
+         <RiFacebookFill className="cursor-pointer text-2xl"/>
+         <FiLinkedin className="cursor-pointer text-2xl"/>
+         <SiBehance className="cursor-pointer text-2xl"/>
         </div>
     
       </motion.div>
