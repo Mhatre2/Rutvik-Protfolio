@@ -76,12 +76,12 @@ const Service = () => {
                 className="lg:my-6 lg:px-8 h-[500px] overflow-hidden"
               >
                   <div className="bg-[#daddf1] relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer   hover:blur-sm">
-                  <img className='lg:h-[340px] transition duration-300 hover:scale-105" src="/Assets/protfolio/foodepi.png' src={category.image} />
+                  <img className='h-[340px] transition duration-300 hover:scale-105" src="/Assets/protfolio/foodepi.png' src={category.image} />
                   </div>
                   <div className="flex justify-between pt-2">
           <div className="flex flex-col">
           <p className=" text-xs lg:text-sm font-normal">{category.text}</p>
-            <p className="text-[16px] lg:text-2xl font-medium">{category.title}</p>
+            <p className="text-[16px] lg:text-2xl font-normal">{category.title}</p>
           </div>
           <div className="flex gap-1 lg:gap-3">
           <div className="flex items-center gap-1 cursor-pointer text-xs lg:text-lg">
