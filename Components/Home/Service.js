@@ -81,17 +81,17 @@ const Service = () => {
                   <div className="flex justify-between pt-2">
           <div className="flex flex-col">
           <p className=" text-xs lg:text-sm font-normal">{category.text}</p>
-            <p className="text-lg lg:text-2xl">{category.title}</p>
+            <p className="text-[16px] lg:text-2xl font-medium">{category.title}</p>
           </div>
           <div className="flex gap-1 lg:gap-3">
           <div className="flex items-center gap-1 cursor-pointer text-xs lg:text-lg">
           <img className="w-4" src={category.love} alt="" />
-         <p >{category.loved}</p>
+         <p className="text-xs">{category.loved}</p>
           </div>
           
           <div className="flex items-center gap-1 cursor-pointer text-xs lg:text-lg">
           <img className="w-5" src={category.eye} alt="" />
-         <p>{category.view}</p>
+         <p className="text-xs">{category.view}</p>
           </div>
           </div>
          

@@ -10,7 +10,7 @@ const Footer = () => {
         <p className='text-xl text-center max-w-xl flex justify-center items-center mx-auto mt-6 text-white'>Get a guided tour through Designjoy, and find out how you and your team can change the way you source design, forever.</p> */}
         <motion.div className="lg:flex lg:flex-row flex-wrap justify-between lg:gap-20 items-center flex flex-col"  variants={downAnimation}
             animate={controls}
-            transition={{ delay: 0.1, type: "tween" }}>
+            transition={{ delay: 0.05, type: "tween" }}>
         <div className="flex-shrink-0">
             <p className="font-bold text-2xl text-white animate__animated animate__fadeInDown animate__delay-1s"> RM <span className="text-orange-500
             ">.</span></p>
