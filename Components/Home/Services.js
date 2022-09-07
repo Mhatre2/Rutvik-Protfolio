@@ -56,7 +56,7 @@ const Services = () => {
             {Categories.map((category, i) => (
               <motion.div
                 key={i}
-                className=" lg:flex lg:px-10 py-5  bg-gradient-to-r from-[#050107] via-[#05040f] to-[#000000] rounded-2xl px-4 border border-gray-700 hover:scale-105"  variants={upAnimation}
+                className=" lg:flex lg:px-10 py-5  bg-gradient-to-r from-[#050107] via-[#05040f] to-[#000000] rounded-2xl px-4 border border-gray-700 transition duration-300 hover:border-gray-200"  variants={upAnimation}
                 animate={controls}
                 transition={{ delay: 0.1, type: "tween" }}
               >

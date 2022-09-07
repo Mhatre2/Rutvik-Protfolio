@@ -12,7 +12,7 @@ import ScrollToTop from '../Components/ScrolltoTop'
 
 export default function Home() {
   return (
- <>
+ <div className='bg-black'>
  {/* <Nav/> */}
   <Hero/>
   <Service />
@@ -21,6 +21,6 @@ export default function Home() {
   {/* <NewsLetter/> */}
   <Footer/>
   {/* <ScrollToTop/> */}
- </>
+ </div>
   )
 }
