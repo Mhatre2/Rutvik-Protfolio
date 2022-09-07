@@ -1,5 +1,5 @@
 export const leftAnimation = {
-    hidden: { x: -80, opacity: 0 },
+    hidden: { x: -100, opacity: 0 },
     show: { x: 1, opacity: 1 },
   };
   export const rightAnimation = {
@@ -11,8 +11,8 @@ export const leftAnimation = {
     show: { y: 1, opacity: 1 },
   };
   export const downAnimation = {
-    hidden: { x: 100, opacity: 0 },
-    show: { x: 1, opacity: 1 },
+    hidden: { y: -100, opacity: 0 },
+    show: { y: 1, opacity: 1 },
   };
   export const imageAnimation = {
     hidden: { scale: 2, opacity: 0 },

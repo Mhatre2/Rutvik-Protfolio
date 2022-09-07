@@ -31,7 +31,7 @@ const ProtfolioService = () => {
   ];
   return (
     <div className="container mx-auto items-center my-10 " ref={element}>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 md:gap-5 md:px-20">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-5 lg:px-20">
         {Categories.map((category, i) => (
           <motion.div
             key={i}

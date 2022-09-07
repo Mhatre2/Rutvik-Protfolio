@@ -63,7 +63,7 @@ const Services = () => {
             
                   <img className='w-20 h-20 lg:w-32 lg:h-32 object-fill' src={category.image} />
                   <div className='pl-3'>
-                  <p className='text-xl lg:text-3xl font-medium lg:pt-5'>{category.title}</p>
+                  <p className='text-2xl lg:text-3xl font-medium lg:pt-5'>{category.title}</p>
                   <p className=' lg:text-xl pt-2'>Start From <span className='text-orange-400 pl-1'>{category.price}</span> </p>
                 <h4 className="text-gray-400 text-sm lg:text-lg pt-2 lg:pt-5">
                   {category.text}

@@ -19,7 +19,7 @@ export default function Home() {
   <ProtfolioService/>
   <Services/>
   {/* <NewsLetter/> */}
-  {/* <Footer/> */}
+  <Footer/>
   {/* <ScrollToTop/> */}
  </>
   )
