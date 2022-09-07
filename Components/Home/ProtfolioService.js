@@ -30,18 +30,18 @@ const ProtfolioService = () => {
     },
   ];
   return (
-    <div className="container mx-auto items-center my-10 " ref={element}>
+    <div className="container mx-auto items-center bg-gradient-to-r from-[#030332] via-[#100113] to-[#030332] py-10" ref={element}>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-5 lg:px-20">
         {Categories.map((category, i) => (
           <motion.div
             key={i}
-            className=" items-center text-center px-6 py-6 rounded-2xl"  variants={upAnimation}
+            className=" items-center text-center px-6 py-6 rounded-2xl hover:border border-gray-600"  variants={upAnimation}
             animate={controls}
             transition={{ delay: 0.1, type: "tween" }}
           >
             <img className="w-24 mx-auto" src={category.image} alt="" />
-            <p className="text-2xl font-semibold">{category.title}</p>
-            <p className="text-xl text-gray-800 pt-4 ">{category.text}</p>
+            <p className="text-2xl font-semibold text-gray-100">{category.title}</p>
+            <p className="text-xl pt-4 text-gray-400">{category.text}</p>
           </motion.div>
         ))}
       </div>

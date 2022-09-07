@@ -38,16 +38,16 @@ const Services = () => {
         
       ];
   return (
-    <div className='container mx-auto py-10' ref={element}>
+    <div className='container mx-auto py-10 bg-gradient-to-r from-[#010113] via-[#090014] to-[#010113]' ref={element}>
          <motion.div className="flex items-center gap-3"  variants={leftAnimation}
                 animate={controls}
                 transition={{ delay: 0.1, type: "tween" }}>
-          <hr className="w-10 bg-orange-500 border "/>
-          <span className="lg:text-[18px] font-medium text-gray-800 ">
+          <hr className="w-10 bg-white "/>
+          <span className="lg:text-[18px] font-medium text-gray-400 ">
             Services
           </span>
         </motion.div>
-        <motion.div className='text-4xl font-semibold'  variants={leftAnimation}
+        <motion.div className='text-4xl font-semibold text-gray-100'  variants={leftAnimation}
                 animate={controls}
                 transition={{ delay: 0.1, type: "tween" }}>What I do for Clients</motion.div>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:mx-auto gap-4  lg:gap-16 lg:px-24 mt-10">
@@ -56,15 +56,15 @@ const Services = () => {
             {Categories.map((category, i) => (
               <motion.div
                 key={i}
-                className=" lg:flex lg:px-10 py-5  bg-gradient-to-r from-[#f9f6fb] via-[#fef9ff] to-[#fcf3f8] rounded-2xl px-4"  variants={upAnimation}
+                className=" lg:flex lg:px-10 py-5  bg-gradient-to-r from-[#050107] via-[#05040f] to-[#000000] rounded-2xl px-4 border border-gray-700 hover:scale-105"  variants={upAnimation}
                 animate={controls}
                 transition={{ delay: 0.1, type: "tween" }}
               >
             
                   <img className='w-20 h-20 lg:w-32 lg:h-32 object-fill' src={category.image} />
                   <div className='pl-3'>
-                  <p className='text-2xl lg:text-3xl font-medium lg:pt-5'>{category.title}</p>
-                  <p className=' lg:text-xl pt-2'>Start From <span className='text-orange-400 pl-1'>{category.price}</span> </p>
+                  <p className='text-2xl lg:text-3xl font-medium text-gray-100 lg:pt-5'>{category.title}</p>
+                  <p className=' lg:text-xl pt-2 text-gray-300'>Start From <span className='text-orange-400 pl-1'>{category.price}</span> </p>
                 <h4 className="text-gray-400 text-sm lg:text-lg pt-2 lg:pt-5">
                   {category.text}
                 </h4>
