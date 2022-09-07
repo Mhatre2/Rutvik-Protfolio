@@ -38,18 +38,18 @@ const Services = () => {
     <div className='container mx-auto'>
          <div className="flex items-center gap-3">
           <hr className="w-10 bg-orange-500 border "/>
-          <span className="md:text-[18px] font-medium text-gray-800 ">
+          <span className="lg:text-[18px] font-medium text-gray-800 ">
             Services
           </span>
         </div>
         <p className='text-4xl font-semibold'>What I do for Clients</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:mx-auto gap-4  md:gap-16 md:px-24 mt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:mx-auto gap-4  lg:gap-16 lg:px-24 mt-10">
          
          
             {Categories.map((category, i) => (
               <div
                 key={i}
-                className=" md:flex md:px-10 py-5 shadow-card-shadow rounded-2xl w-full"
+                className=" lg:flex lg:px-10 py-5 shadow-card-shadow rounded-2xl w-full"
               >
             
                   <img className='w-32 h-32 object-fill' src={category.image} />
