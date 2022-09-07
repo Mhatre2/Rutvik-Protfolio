@@ -1,7 +1,10 @@
 import React from 'react'
-import { useState } from "react";
-import Image from "next/image"
+import { downAnimation, leftAnimation, rightAnimation, textAnimation } from "../../styles/Animation";
+import { motion } from "framer-motion";
+import { headerAnimation,imageAnimation,upAnimation } from "../../styles/Animation";
+import { useScroll } from "../UseScroll";
 const Services = () => {
+  const [element,controls]= useScroll();
     const Categories = [
         {
           id: 1,
@@ -35,21 +38,27 @@ const Services = () => {
         
       ];
   return (
-    <div className='container mx-auto'>
-         <div className="flex items-center gap-3">
+    <div className='container mx-auto' ref={element}>
+         <motion.div className="flex items-center gap-3"  variants={leftAnimation}
+                animate={controls}
+                transition={{ delay: 0.1, type: "tween" }}>
           <hr className="w-10 bg-orange-500 border "/>
           <span className="lg:text-[18px] font-medium text-gray-800 ">
             Services
           </span>
-        </div>
-        <p className='text-4xl font-semibold'>What I do for Clients</p>
+        </motion.div>
+        <motion.div className='text-4xl font-semibold'  variants={leftAnimation}
+                animate={controls}
+                transition={{ delay: 0.1, type: "tween" }}>What I do for Clients</motion.div>
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:mx-auto gap-4  lg:gap-16 lg:px-24 mt-10">
          
          
             {Categories.map((category, i) => (
-              <div
+              <motion.div
                 key={i}
-                className=" lg:flex lg:px-10 py-5 shadow-card-shadow rounded-2xl w-full"
+                className=" lg:flex lg:px-10 py-5 shadow-card-shadow rounded-2xl px-4"  variants={upAnimation}
+                animate={controls}
+                transition={{ delay: 0.1, type: "tween" }}
               >
             
                   <img className='w-32 h-32 object-fill' src={category.image} />
@@ -62,7 +71,7 @@ const Services = () => {
                   </div>
               
                  
-              </div>
+              </motion.div>
             ))}
           
          
