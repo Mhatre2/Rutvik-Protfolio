@@ -75,8 +75,8 @@ const Service = () => {
                 key={i}
                 className="lg:my-6 lg:px-8 h-[500px] overflow-hidden"
               >
-                  <div className="bg-[#daddf1] relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer   hover:blur-sm">
-                  <img className='h-[340px] transition duration-300 hover:scale-105" src="/Assets/protfolio/foodepi.png' src={category.image} />
+                  <div className="bg-gradient-to-r from-[#f9f6fb] via-[#fef9ff] to-[#fcf3f8] relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer   hover:blur-sm">
+                  <img className='lg:h-[340px] transition duration-300 hover:scale-105" src="/Assets/protfolio/foodepi.png' src={category.image} />
                   </div>
                   <div className="flex justify-between pt-2">
           <div className="flex flex-col">

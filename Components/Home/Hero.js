@@ -9,7 +9,7 @@ const Hero = () => {
   const [element,controls]= useScroll();
   return (
     <>
-    <div className="relative mt-10 bg-gradient-to-t from-[#fffbf5] to-[#fffef4] pt-10 sm:pt-0 mb-10" ref={element}>
+    <div className="relative mt-15 bg-gradient-to-t from-[#fffbf5] to-[#fffef4] pt-10 sm:pt-0 mb-10" ref={element}>
     <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-20 bg-gradient-to-t from-[#fffbf5] to-[#fffef4]">
     <motion.div
           className="content"
