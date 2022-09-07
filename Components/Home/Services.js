@@ -43,13 +43,13 @@ const Services = () => {
           </span>
         </div>
         <p className='text-4xl font-semibold'>What I do for Clients</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 mx-auto gap-16 px-24 mt-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:mx-auto gap-4  md:gap-16 md:px-24 mt-10">
          
          
             {Categories.map((category, i) => (
               <div
                 key={i}
-                className=" flex px-10 py-5 shadow-card-shadow rounded-2xl h-[300px]"
+                className=" md:flex md:px-10 py-5 shadow-card-shadow rounded-2xl w-full"
               >
             
                   <img className='w-32 h-32 object-fill' src={category.image} />

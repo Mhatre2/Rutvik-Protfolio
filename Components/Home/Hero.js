@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { headerAnimation,imageAnimation, rightAnimation } from "../../styles/Animation";
+import { leftAnimation,imageAnimation, rightAnimation } from "../../styles/Animation";
 import { useScroll } from "../UseScroll";
 import {RiFacebookFill} from 'react-icons/ri'
 import {SiBehance} from 'react-icons/si'
@@ -13,7 +13,7 @@ const Hero = () => {
     <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-20 bg-gradient-to-t from-[#fffbf5] to-[#fffef4]">
     <motion.div
           className="content"
-          variants={headerAnimation}
+          variants={leftAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}
         >
