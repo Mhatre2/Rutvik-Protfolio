@@ -54,7 +54,7 @@ const Service = () => {
   ];
   return (
     <>
-     <div className="container mx-auto items-center py-10" >
+     <div className="container mx-auto items-center  md:py-10" >
       <motion.div className="flex items-center gap-3 mb-5">
         <hr className="w-10 bg-orange-500 " />
         <span className="md:text-[18px] font-medium text-gray-800">

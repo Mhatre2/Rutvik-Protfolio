@@ -13,7 +13,7 @@ import ScrollToTop from '../Components/ScrolltoTop'
 export default function Home() {
   return (
  <>
- <Nav/>
+ {/* <Nav/> */}
   <Hero/>
   <Service />
   <ProtfolioService/>

@@ -9,11 +9,13 @@ const Hero = () => {
   const [element,controls]= useScroll();
   return (
     <>
-    <div className="relative mt-10 md:h-screen bg-gradient-to-t from-[#fffbf5] to-[#fffef4] pt-10 sm:pt-0 mb-10" >
-
+    <div className="relative mt-10 h-screen bg-gradient-to-t from-[#fffbf5] to-[#fffef4] pt-10 sm:pt-0 mb-10" ref={element}>
     <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-20 bg-gradient-to-t from-[#fffbf5] to-[#fffef4]">
     <motion.div
           className="content"
+          variants={headerAnimation}
+          animate={controls}
+          transition={{ delay: 0.2, type: "tween" }}
         >
         <div className="flex items-center gap-3">
           <hr className="w-10 bg-orange-500 border "/>
@@ -41,7 +43,9 @@ const Hero = () => {
         </div>
     
       </motion.div>
-      <motion.div className="relative sm:mt-0 mt-10 mb-10 px-6 sm:px-0">
+      <motion.div className="relative sm:mt-0 mt-10 px-6 sm:px-0"   variants={rightAnimation}
+          animate={controls}
+          transition={{ delay: 0.2, type: "tween" }}>
         <img className="w-14  top-14 sm:-left-5 hidden sm:absolute" src="/Assets/figma.png" alt="" />
         <img className="w-32 hidden sm:absolute  bottom-0 sm:-left-10" src="/Assets/nextjs.png" alt="" />
        
