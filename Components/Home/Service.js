@@ -54,19 +54,23 @@ const Service = () => {
   ];
   return (
     <>
-     <div className="container mx-auto items-center  md:py-10" >
-      <motion.div className="flex items-center gap-3 mb-5">
+     <div className="container mx-auto items-center  md:py-10" ref={element}>
+      <motion.div className="flex items-center gap-3 mb-5" variants={headerAnimation}
+          animate={controls}
+          transition={{ delay: 0.2, type: "tween" }}>
         <hr className="w-10 bg-orange-500 " />
         <span className="md:text-[18px] font-medium text-gray-800">
           My Latest Design & Development
         </span>
       </motion.div>
-      <div className="grid grid-cols-1 md:grid-cols-2">
+      <div className="grid grid-cols-1 md:grid-cols-2" >
        
     
        
             {Categories.map((category, i) => (
-               <div className=" md:px-8 h-[500px]">
+               <motion.div className=" md:px-8 h-[500px]"  variants={headerAnimation}
+               animate={controls}
+               transition={{ delay: 0.2, type: "tween" }}>
               <div
                 key={i}
                 className="md:my-6 md:px-8 h-[500px] overflow-hidden"
@@ -95,7 +99,7 @@ const Service = () => {
                   
               
                   </div>
-              </div>
+              </motion.div>
             ))}
           
          
