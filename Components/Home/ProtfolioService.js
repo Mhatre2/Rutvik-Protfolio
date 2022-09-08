@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import {
   headerAnimation,
   imageAnimation,
-  rightAnimation,
+  leftAnimation,
   upAnimation,downAnimation
 } from "../../styles/Animation";
 import { useScroll } from "../UseScroll";
@@ -52,7 +52,15 @@ const ProtfolioService = () => {
           <motion.div className="text-6xl lg:text-8xl uppercase text-center font-monoton text-gray-900 py-5"    variants={downAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}>My skills</motion.div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-5 lg:px-20">
+             <motion.div className="flex items-center gap-3"  variants={leftAnimation}
+                animate={controls}
+                transition={{ delay: 0.1, type: "tween" }}>
+          <hr className="w-10 bg-white "/>
+          <span className="lg:text-[18px] font-medium text-gray-400 capitalize">
+         These are the main skills
+          </span>
+        </motion.div>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-5 lg:px-20 py-10">
         {Categories.map((category, i) => (
           <motion.div
             key={i}
