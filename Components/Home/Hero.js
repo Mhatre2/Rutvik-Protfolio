@@ -36,10 +36,17 @@ const Hero = () => {
         <button className="font-medium text-[16px] flex items-center px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-orange-300 to-orange-500 hover:from-pink-500 hover:to-yellow-500  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass ">Get In Touch
           <span className="animate-ping absolute right-0 top-0 w-3 h-3  rounded-full bg-gradient-to-r from-orange -400 to-orange-700 "></span>
          </button>
-     
-         <RiFacebookFill className="cursor-pointer text-2xl text-gray-300"/>
-         <FiLinkedin className="cursor-pointer text-2xl text-gray-300"/>
-         <SiBehance className="cursor-pointer text-2xl text-gray-300"/>
+        <a href="https://www.facebook.com/rownokmahbub">
+        <RiFacebookFill className="cursor-pointer text-2xl text-gray-300 hover:text-orange-300"/>
+        </a>
+        <a href="https://www.linkedin.com/in/mehbubur-rahman-551573181/">
+        <FiLinkedin className="cursor-pointer text-2xl text-gray-300 hover:text-orange-300"/>
+        </a>
+         
+         <a href="https://www.behance.net/rownokmahbub1">
+         <SiBehance className="cursor-pointer text-2xl text-gray-300 hover:text-orange-300"/>
+         </a>
+      
         </div>
     
       </div>

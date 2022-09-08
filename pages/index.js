@@ -13,7 +13,7 @@ import Nav from '../Components/Nav'
 
 export default function Home() {
   return (
- <div className='bg-black'>
+ <div className='bg-gradient-to-r from-[#010113] via-[#090014] to-[#010113]'>
  <Nav/>
   <Hero/>
   <Service />

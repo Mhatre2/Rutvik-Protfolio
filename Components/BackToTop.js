@@ -7,10 +7,8 @@ export default function App() {
   }, []);
 
   return (
-    <div>
+    <div className='relative'>
       
-
-      <div className='relative h-20 w-20 '/>
 
       
       <button className='fixed bottom-8 right-8 bg-gradient-to-r from-[#0f0f15] via-[#2a2234] to-[#121215] px-3 py-3 shadow-lg rounded-full'
