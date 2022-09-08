@@ -37,14 +37,14 @@ const Hero = () => {
           <span className="animate-ping absolute right-0 top-0 w-3 h-3  rounded-full bg-gradient-to-r from-orange -400 to-orange-700 "></span>
          </button>
         <a href="https://www.facebook.com/rownokmahbub">
-        <RiFacebookFill className="cursor-pointer text-2xl text-gray-300 hover:text-orange-300"/>
+        <RiFacebookFill className="cursor-pointer text-2xl text-gray-300 hover:text-orange-300 transition duration-200 hover:scale-125"/>
         </a>
         <a href="https://www.linkedin.com/in/mehbubur-rahman-551573181/">
-        <FiLinkedin className="cursor-pointer text-2xl text-gray-300 hover:text-orange-300"/>
+        <FiLinkedin className="cursor-pointer text-2xl text-gray-300 hover:text-orange-300 transition duration-200 hover:scale-125"/>
         </a>
          
          <a href="https://www.behance.net/rownokmahbub1">
-         <SiBehance className="cursor-pointer text-2xl text-gray-300 hover:text-orange-300"/>
+         <SiBehance className="cursor-pointer text-2xl text-gray-300 hover:text-orange-300 transition duration-200 hover:scale-125"/>
          </a>
       
         </div>
