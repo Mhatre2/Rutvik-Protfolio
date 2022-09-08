@@ -4,7 +4,7 @@ import {
   headerAnimation,
   imageAnimation,
   rightAnimation,
-  upAnimation
+  upAnimation,downAnimation
 } from "../../styles/Animation";
 import { useScroll } from "../UseScroll";
 const ProtfolioService = () => {
@@ -28,14 +28,35 @@ const ProtfolioService = () => {
       text: "I will research  creative ideas and find the best solution for you.",
       image: "/Assets/developer.gif",
     },
+    {
+      id: 4,
+      title: "Develop",
+      text: "I will research  creative ideas and find the best solution for you.",
+      image: "/Assets/developer.gif",
+    },
+    {
+      id: 5,
+      title: "Develop",
+      text: "I will research  creative ideas and find the best solution for you.",
+      image: "/Assets/developer.gif",
+    },
+    {
+      id: 6,
+      title: "Develop",
+      text: "I will research  creative ideas and find the best solution for you.",
+      image: "/Assets/developer.gif",
+    },
   ];
   return (
     <div className="container mx-auto items-center bg-gradient-to-r from-[#030332] via-[#100113] to-[#030332] py-10" ref={element}>
+          <motion.div className="text-6xl lg:text-8xl uppercase text-center font-monoton text-gray-900 py-5"    variants={imageAnimation}
+          animate={controls}
+          transition={{ delay: 0.2, type: "tween" }}>My skills</motion.div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-5 lg:px-20">
         {Categories.map((category, i) => (
           <motion.div
             key={i}
-            className=" items-center text-center px-6 py-6 rounded-2xl hover:border border-gray-600"  variants={upAnimation}
+            className=" items-center text-center px-6 py-6 rounded-2xl hover:border border-gray-600"  variants={downAnimation}
             animate={controls}
             transition={{ delay: 0.1, type: "tween" }}
           >

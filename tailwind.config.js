@@ -16,8 +16,7 @@ module.exports = {
       },
     },
     fontFamily: {
-      body: ["aller", "sans-serif"],
-      pop: ["Poppins", "sans-serif"],
+      monoton:["Monoton", "cursive"],
       infinite: ["Outfit", "sans-serif"],
     },
     extend: {

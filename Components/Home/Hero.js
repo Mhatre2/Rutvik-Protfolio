@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { leftAnimation,imageAnimation, rightAnimation ,upAnimation} from "../../styles/Animation";
+import { leftAnimation,imageAnimation, rightAnimation ,upAnimation,downAnimation} from "../../styles/Animation";
 import { useScroll } from "../UseScroll";
 import {RiFacebookFill} from 'react-icons/ri'
 import {SiBehance} from 'react-icons/si'
@@ -10,9 +10,9 @@ const Hero = () => {
   return (
     <>
     <div className="relative md:h-screen mt-15 pt-10 sm:pt-0 bg-gradient-to-r from-[#030332] via-[#100113] to-[#030332]" ref={element}>
-    <motion.div className="container my-auto grid grid-cols-1 lg:grid-cols-2 lg:gap-20 items-center lg:pt-24 "  variants={upAnimation}
+    <motion.div className="container my-auto grid grid-cols-1 lg:grid-cols-2 lg:gap-20 items-center lg:pt-24 "  variants={downAnimation}
                animate={controls}
-               transition={{ delay: 0.1, type: "tween" }}>
+               transition={{ delay: 0.2, type: "tween" }}>
     <div
           className="content"
         
@@ -23,7 +23,7 @@ const Hero = () => {
             UI/UX Designer  Developer 
           </span>
         </div>
-        <p className="text-[40px] lg:text-[45px] xl:text-[55px] font-bold leading-tight mt-5 sm:mt-0 text-gray-100">
+        <p className="text-[40px] lg:text-[50px] xl:text-[57px] font-bold leading-tight mt-5 sm:mt-0 text-gray-100">
           I'm Rownok Mahbub <br />
           Designer And Developer 
         </p>

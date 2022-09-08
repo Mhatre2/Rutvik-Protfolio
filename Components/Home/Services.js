@@ -39,17 +39,18 @@ const Services = () => {
       ];
   return (
     <div className='container mx-auto py-10 bg-gradient-to-r from-[#010113] via-[#090014] to-[#010113]' ref={element}>
+          <motion.div className="text-6xl lg:text-8xl uppercase text-center font-monoton text-gray-900 py-5"    variants={imageAnimation}
+          animate={controls}
+          transition={{ delay: 0.2, type: "tween" }}>My Service</motion.div>
          <motion.div className="flex items-center gap-3"  variants={leftAnimation}
                 animate={controls}
                 transition={{ delay: 0.1, type: "tween" }}>
           <hr className="w-10 bg-white "/>
           <span className="lg:text-[18px] font-medium text-gray-400 ">
-            Services
+          What I do for Clients
           </span>
         </motion.div>
-        <motion.div className='text-4xl font-semibold text-gray-100'  variants={leftAnimation}
-                animate={controls}
-                transition={{ delay: 0.1, type: "tween" }}>What I do for Clients</motion.div>
+      
         <div className="grid grid-cols-1 lg:grid-cols-2 xl:mx-auto gap-4  lg:gap-16 lg:px-24 mt-10">
          
          
