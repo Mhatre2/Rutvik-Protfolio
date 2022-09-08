@@ -6,10 +6,10 @@ const Nav = () => {
   return (
     <div>
     <nav className="">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-16 fixed top-0 z-50 bg-white ">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-16 fixed top-0 z-50 bg-gradient-to-r from-[#010113] via-[#130227] to-[#010113]">
         <div className="flex items-center justify-between h-16">
         <div className="flex-shrink-0">
-            <p className="font-bold text-2xl animate__animated animate__fadeInDown animate__delay-1s"> RM <span className="text-orange-500
+            <p className="font-bold text-2xl animate__animated animate__fadeInDown animate__delay-1s text-white"> RM <span className="text-orange-500
             ">.</span></p>
             </div>
           <div className="flex items-center">
@@ -18,28 +18,28 @@ const Nav = () => {
               <div className="ml-10 flex items-baseline space-x-10 animate__animated animate__fadeInDown animate__delay-1s">
                 <a
                   href="#"
-                  className="font-medium text-[18px]"
+                  className="font-medium text-[18px] text-gray-200"
                 >
                   About
                 </a>
 
                 <a
                   href="#"
-                  className="font-medium text-[18px]"
+                  className="font-medium text-[18px] text-gray-200"
                 >
                   Portfolio
                 </a>
 
                 <a
                   href="#"
-                  className="font-medium text-[18px]"
+                  className="font-medium text-[18px] text-gray-200"
                 >
                   Service
                 </a>
 
                 <a
                   href="#"
-                  className="font-medium text-[18px] "
+                  className="font-medium text-[18px] text-gray-200 "
                 >
                   Blog
                 
@@ -47,13 +47,13 @@ const Nav = () => {
 
                 <a
                   href="#"
-                  className="font-medium text-[18px] "
+                  className="font-medium text-[18px] text-gray-200 "
                 >
                     Contact
                 </a>
                 <a
                   href="#"
-                  className="font-medium text-[18px] py-2 px-4 text-white capitalize bg-gradient-to-r from-orange-300 to-orange-500 hover:from-pink-500 hover:to-yellow-500 rounded-[20px] transition duration-300 hover:scale-105 "
+                  className="font-medium text-[18px] text-gray-200 py-2 px-4  capitalize bg-gradient-to-r from-orange-300 to-orange-500 hover:from-pink-500 hover:to-yellow-500 rounded-[20px] transition duration-300 hover:scale-105 "
                 >
                     Download CV
                 </a>
@@ -118,10 +118,10 @@ const Nav = () => {
       >
         {(ref) => (
           <div className="md:hidden " id="mobile-menu">
-            <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center">
+            <div ref={ref} className="px-2 pt-20 pb-5 space-y-1 sm:px-3 flex flex-col items-center bg-gradient-to-r from-[#010113] via-[#130227] to-[#010113]">
               <a
                 href="#"
-                className="font-medium text-[18px]"
+                className="font-medium text-[18px] text-gray-200"
               >
                 About
                 
@@ -129,37 +129,37 @@ const Nav = () => {
 
               <a
                 href="#"
-                className="font-medium text-[18px]"
+                className="font-medium text-[18px] text-gray-200"
               >
                  Portfolio
               </a>
 
               <a
                 href="#"
-                className=" font-medium text-[18px]"
+                className=" font-medium text-[18px] text-gray-200"
               >
                 Service
               </a>
 
               <a
                 href="#"
-                className=" font-medium text-[18px]"
+                className=" font-medium text-[18px] text-gray-200"
               >
                 Blog
               </a>
 
               <a
                 href="#"
-                className="font-medium text-[18px]"
+                className="font-medium text-[18px] text-gray-200"
               >
                 Contact
               </a>
-              <button
-               
-                className="btn btn-outline btn-secondary"
-              >
-                Download now
-              </button>
+              <a
+                  href="#"
+                  className="font-medium text-[18px] text-gray-200 py-2 px-4  capitalize bg-gradient-to-r from-orange-300 to-orange-500 hover:from-pink-500 hover:to-yellow-500 rounded-[20px] transition duration-300 hover:scale-105 "
+                >
+                    Download CV
+                </a>
             </div>
           </div>
         )}
