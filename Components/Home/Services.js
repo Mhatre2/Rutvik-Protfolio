@@ -39,7 +39,7 @@ const Services = () => {
       ];
   return (
     <div className='container mx-auto py-10 bg-gradient-to-r from-[#010113] via-[#090014] to-[#010113]' ref={element}>
-          <motion.div className="text-6xl lg:text-8xl uppercase text-center font-monoton text-gray-800 py-5"    variants={upAnimation}
+          <motion.div className="text-6xl lg:text-8xl uppercase text-center font-monoton text-gray-800 py-5 stroke-current"    variants={upAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}>My Service</motion.div>
          <motion.div className="flex items-center gap-3"  variants={leftAnimation}
@@ -57,7 +57,7 @@ const Services = () => {
             {Categories.map((category, i) => (
               <motion.div
                 key={i}
-                className=" lg:flex lg:px-10 py-5  bg-gradient-to-r from-[#050107] via-[#05040f] to-[#000000] rounded-2xl px-4 border border-gray-700 transition duration-300 hover:border-gray-200"  variants={upAnimation}
+                className=" lg:flex lg:px-10 py-5  bg-gradient-to-r from-[#050107] via-[#05040f] to-[#000000] rounded-2xl px-4 border border-slate-700 transition duration-300 hover:border-orange-200"  variants={upAnimation}
                 animate={controls}
                 transition={{ delay: 0.1, type: "tween" }}
               >

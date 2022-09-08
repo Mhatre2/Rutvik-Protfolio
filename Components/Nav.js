@@ -118,7 +118,7 @@ const Nav = () => {
       >
         {(ref) => (
           <div className="md:hidden " id="mobile-menu">
-            <div ref={ref} className="px-2 pt-20 pb-5 space-y-1 sm:px-3 flex flex-col items-center bg-gradient-to-r from-[#010113] via-[#130227] to-[#010113]">
+            <div ref={ref} className="px-2 pt-20 pb-5 space-y-3 sm:px-3 flex flex-col items-center bg-gradient-to-r from-[#010113] via-[#130227] to-[#010113]">
               <a
                 href="#"
                 className="font-medium text-[18px] text-gray-200"

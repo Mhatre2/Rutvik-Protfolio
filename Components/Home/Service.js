@@ -77,7 +77,7 @@ const Service = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2">
           {Categories.map((category, i) => (
             <motion.div
-              className=" lg:px-8 h-[500px]"
+              className=" lg:px-8 h-[500px] "
               variants={upAnimation}
               animate={controls}
               transition={{ delay: 0.1, type: "tween" }}
@@ -86,9 +86,9 @@ const Service = () => {
                 key={i}
                 className="lg:my-6 lg:px-8 h-[500px] overflow-hidden"
               >
-                <div className="border border-gray-600 relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer hover:blur-sm hover:border">
+                <div className="border border-gray-600 relative rounded-xl h-[370px] flex justify-center items-center cursor-pointer hover:border ">
                   <img
-                    className='lg:h-[340px] transition duration-300 hover:scale-105" src="/Assets/protfolio/foodepi.png'
+                    className="lg:h-[340px] transition duration-300 hover:scale-105 hover:blur-sm "
                     src={category.image}
                   />
                 </div>
