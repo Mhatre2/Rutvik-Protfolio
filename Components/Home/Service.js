@@ -59,7 +59,7 @@ const Service = () => {
         className="container mx-auto items-center bg-gradient-to-r from-[#010113] via-[#090014] to-[#010113] py-10"
         ref={element}
       >
-          <motion.div className="text-6xl lg:text-8xl uppercase text-center font-monoton text-gray-900 py-5"    variants={imageAnimation}
+          <motion.div className="text-6xl lg:text-8xl uppercase text-center font-monoton text-gray-900 py-5"    variants={upAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}>Recent Work</motion.div>
         <motion.div
