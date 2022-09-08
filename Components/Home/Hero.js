@@ -9,13 +9,11 @@ const Hero = () => {
   const [element,controls]= useScroll();
   return (
     <>
-    <div className="relative md:h-screen mt-15 pt-10 sm:pt-0 bg-gradient-to-r from-[#030332] via-[#100113] to-[#030332]" ref={element}>
+    <div className="relative md:h-screen mt-15 pt-10 sm:pt-0 bg-gradient-to-r from-[#030332] via-[#100113] to-[#030332]" >
     <div className="container my-auto grid grid-cols-1 lg:grid-cols-2 lg:gap-20 items-center lg:pt-24 ">
-    <motion.div
+    <div
           className="content"
-          variants={leftAnimation}
-          animate={controls}
-          transition={{ delay: 0.2, type: "tween" }}
+        
         >
         <div className="flex items-center gap-3">
           <hr className="w-10 bg-white-500  "/>
@@ -42,13 +40,11 @@ const Hero = () => {
          <SiBehance className="cursor-pointer text-2xl text-gray-300"/>
         </div>
     
-      </motion.div>
-      <motion.div className=""   variants={rightAnimation}
-          animate={controls}
-          transition={{ delay: 0.1, type: "tween" }}>
+      </div>
+      <div className=""  >
     
         <img className="" src="/Assets/coder.svg" alt="" />
-      </motion.div>
+      </div>
     </div>
     </div>
   
