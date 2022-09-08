@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { leftAnimation,imageAnimation, rightAnimation } from "../../styles/Animation";
+import { leftAnimation,imageAnimation, rightAnimation ,upAnimation} from "../../styles/Animation";
 import { useScroll } from "../UseScroll";
 import {RiFacebookFill} from 'react-icons/ri'
 import {SiBehance} from 'react-icons/si'
@@ -9,8 +9,10 @@ const Hero = () => {
   const [element,controls]= useScroll();
   return (
     <>
-    <div className="relative md:h-screen mt-15 pt-10 sm:pt-0 bg-gradient-to-r from-[#030332] via-[#100113] to-[#030332]" >
-    <div className="container my-auto grid grid-cols-1 lg:grid-cols-2 lg:gap-20 items-center lg:pt-24 ">
+    <div className="relative md:h-screen mt-15 pt-10 sm:pt-0 bg-gradient-to-r from-[#030332] via-[#100113] to-[#030332]" ref={element}>
+    <motion.div className="container my-auto grid grid-cols-1 lg:grid-cols-2 lg:gap-20 items-center lg:pt-24 "  variants={upAnimation}
+               animate={controls}
+               transition={{ delay: 0.1, type: "tween" }}>
     <div
           className="content"
         
@@ -45,7 +47,7 @@ const Hero = () => {
     
         <img className="" src="/Assets/coder.svg" alt="" />
       </div>
-    </div>
+    </motion.div>
     </div>
   
   
