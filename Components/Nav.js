@@ -6,7 +6,7 @@ const Nav = () => {
   return (
     <div>
     <nav className="">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-16 fixed top-0 z-50 bg-gradient-to-r from-[#010113] via-[#130227] to-[#010113]">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-16 fixed top-0 z-50 bg-gradient-to-r from-[#010113] via-[#130227] to-[#010113]/80  drop-shadow-lg">
         <div className="flex items-center justify-between h-16">
         <div className="flex-shrink-0">
             <p className="font-bold text-2xl animate__animated animate__fadeInDown animate__delay-1s text-white"> RM <span className="text-orange-500
@@ -64,7 +64,7 @@ const Nav = () => {
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
-              className="dark:bg-gray-900 text-black inline-flex items-center justify-center p-2 rounded-md dark:text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+              className="dark:bg-gray-900 text-white inline-flex items-center justify-center p-2 rounded-md dark:text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
