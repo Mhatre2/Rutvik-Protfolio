@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <>
     <div className="relative md:h-screen mt-15 pt-10 sm:pt-0 bg-gradient-to-r from-[#030332] via-[#100113] to-[#030332]" ref={element}>
-    <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 items-center md:gap-20 ">
+    <div className="container my-auto grid grid-cols-1 lg:grid-cols-2 lg:gap-20 items-center lg:pt-24 ">
     <motion.div
           className="content"
           variants={leftAnimation}
@@ -43,13 +43,11 @@ const Hero = () => {
         </div>
     
       </motion.div>
-      <motion.div className="relative sm:mt-0 mt-10 px-6 sm:px-0"   variants={rightAnimation}
+      <motion.div className=""   variants={rightAnimation}
           animate={controls}
           transition={{ delay: 0.1, type: "tween" }}>
-        <img className="w-14  top-14 sm:-left-5 hidden sm:absolute" src="/Assets/figma.png" alt="" />
-        <img className="w-32 hidden sm:absolute  bottom-0 sm:-left-10" src="/Assets/nextjs.png" alt="" />
-       
-        <img className="w-[600px] animate__animated animate__fadeInRight animate__delay-.5s" src="/Assets/mainhero.png" alt="" />
+    
+        <img className="" src="/Assets/coder.svg" alt="" />
       </motion.div>
     </div>
     </div>
