@@ -1,10 +1,4 @@
 import React from "react";
-import {
-  downAnimation,
-  leftAnimation,
-  rightAnimation,
-  textAnimation,
-} from "../../styles/Animation";
 import { motion } from "framer-motion";
 import {
   headerAnimation,
