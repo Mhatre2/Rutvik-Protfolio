@@ -48,7 +48,7 @@ const ProtfolioService = () => {
     },
   ];
   return (
-    <div className="container mx-auto items-center bg-gradient-to-r from-[#030332] via-[#100113] to-[#030332] py-10" ref={element}>
+    <div className="container mx-auto items-center bg-gradient-to-r from-[#030332] via-[#100113] to-[#030332] py-10 rounded-b-[60px]" ref={element}>
           <motion.div className="text-6xl lg:text-8xl uppercase text-center font-monoton text-gray-300 py-5"    variants={downAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}>My skills</motion.div>
