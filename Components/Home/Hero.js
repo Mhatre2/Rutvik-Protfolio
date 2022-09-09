@@ -5,6 +5,7 @@ import { useScroll } from "../UseScroll";
 import {RiFacebookFill} from 'react-icons/ri'
 import {SiBehance} from 'react-icons/si'
 import {FiLinkedin} from 'react-icons/fi'
+import {GoMarkGithub} from 'react-icons/go'
 const Hero = () => {
   const [element,controls]= useScroll();
   return (
@@ -33,7 +34,7 @@ const Hero = () => {
         </p>
         <div className="flex gap-4 mt-10 items-center">
        
-        <button className="font-medium text-[16px] flex items-center px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-orange-300 to-orange-500 hover:from-pink-500 hover:to-yellow-500  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass ">Get In Touch
+        <button className="font-medium text-[16px] flex items-center px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-purple-300 to-purple-500 hover:from-pink-500 hover:to-yellow-500  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass ">Hire Me 😊
           <span className="animate-ping absolute right-0 top-0 w-3 h-3  rounded-full bg-gradient-to-r from-orange -400 to-orange-700 "></span>
          </button>
         <a href="https://www.facebook.com/rownokmahbub">
@@ -47,6 +48,9 @@ const Hero = () => {
          <SiBehance className="cursor-pointer text-2xl text-gray-300 hover:text-orange-300 transition duration-200 hover:scale-125"/>
          </a>
       
+         <a href="https://github.com/rownokmahbub">
+         <GoMarkGithub className="cursor-pointer text-2xl text-gray-300 hover:text-orange-300 transition duration-200 hover:scale-125"/>
+         </a>
         </div>
     
       </div>

@@ -23,15 +23,15 @@ const NewsLetter = () => {
           transition={{ delay: 0.2, type: "tween" }}
         >
           <hr className="w-10 bg-gray-500 " />
-          <span className="lg:text-[18px] font-medium text-gray-400">
-          Just mail or What's App me if you have any Quires 
+          <span className="lg:text-[18px] font-medium text-gray-400 capitalize">
+         I want to hear from you  
           </span>
         </motion.div>
     
       
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-10'>
        
-        <div className='rounded-xl border flex items-center border-orange-300/40 py-3' >
+        <div className='rounded-xl border flex items-center border-purple-300/40 py-3' >
         
        <img className='w-14 lg:w-28' src="/Assets/email.gif" alt="" />
        <div className="flex flex-col">
@@ -41,7 +41,7 @@ const NewsLetter = () => {
       
        
         </div>
-        <div className='rounded-xl border flex items-center border-orange-300/40 py-3' >
+        <div className='rounded-xl border flex items-center border-purple-300/40 py-3' >
         
         <img className='w-14 lg:w-28' src="/Assets/call.gif" alt="" />
         <div className="flex flex-col">

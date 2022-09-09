@@ -9,7 +9,7 @@ const Nav = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-16 fixed top-0 z-50 bg-gradient-to-r from-[#010113] via-[#130227] to-[#010113]/80  drop-shadow-lg">
         <div className="flex items-center justify-between h-16">
         <div className="flex-shrink-0">
-            <p className="font-bold text-2xl animate__animated animate__fadeInDown animate__delay-1s text-white"> RM <span className="text-orange-500
+            <p className="font-bold text-2xl animate__animated animate__fadeInDown animate__delay-1s text-white"> RM <span className="text-purple-500
             ">.</span></p>
             </div>
           <div className="flex items-center">
@@ -53,7 +53,7 @@ const Nav = () => {
                 </a>
                 <a
                   href="#"
-                  className="font-medium text-[18px] text-gray-200 py-2 px-4  capitalize bg-gradient-to-r from-orange-300 to-orange-500 hover:from-pink-500 hover:to-yellow-500 rounded-[20px] transition duration-300 hover:scale-105 "
+                  className="font-medium text-[18px] text-gray-200 py-2 px-4  capitalize bg-gradient-to-r from-purple-300 to-purple-500 hover:from-pink-500 hover:to-yellow-500 rounded-[20px] transition duration-300 hover:scale-105 "
                 >
                     Download CV
                 </a>

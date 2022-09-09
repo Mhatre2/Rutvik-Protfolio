@@ -12,7 +12,7 @@ const Footer = () => {
             animate={controls}
             transition={{ delay: 0.05, type: "tween" }}>
         <div className="flex-shrink-0">
-            <p className="font-bold text-2xl text-white animate__animated animate__fadeInDown animate__delay-1s"> RM <span className="text-orange-500
+            <p className="font-bold text-2xl text-white animate__animated animate__fadeInDown animate__delay-1s"> RM <span className="text-purple-500
             ">.</span></p>
             </div>
             <div className="flex flex-col gap-3 mt-4 lg:mt-0">

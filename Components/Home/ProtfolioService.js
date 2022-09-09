@@ -64,7 +64,7 @@ const ProtfolioService = () => {
         {Categories.map((category, i) => (
           <motion.div
             key={i}
-            className=" items-center text-center px-6 py-6 rounded-2xl hover:border border-orange-200"  variants={downAnimation}
+            className=" items-center text-center px-6 py-6 rounded-2xl hover:border border-purple-200"  variants={downAnimation}
             animate={controls}
             transition={{ delay: 0.1, type: "tween" }}
           >
