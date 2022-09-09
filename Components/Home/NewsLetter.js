@@ -31,7 +31,7 @@ const NewsLetter = () => {
       
       <div className='grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-10'>
        
-        <div className='rounded-xl border flex items-center border-purple-300/40 py-3' >
+        <div className='rounded-xl border flex items-center border-purple-300/40 py-3 hover:bg-gradient-to-r from-[#030332] via-[#100113] to-[#030332]' >
         
        <img className='w-14 lg:w-28' src="/Assets/email.gif" alt="" />
        <div className="flex flex-col">
@@ -41,7 +41,7 @@ const NewsLetter = () => {
       
        
         </div>
-        <div className='rounded-xl border flex items-center border-purple-300/40 py-3' >
+        <div className='rounded-xl border flex items-center border-purple-300/40 py-3 hover:bg-gradient-to-r from-[#030332] via-[#100113] to-[#030332]' >
         
         <img className='w-14 lg:w-28' src="/Assets/call.gif" alt="" />
         <div className="flex flex-col">

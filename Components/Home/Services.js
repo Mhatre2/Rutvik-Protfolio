@@ -51,13 +51,13 @@ const Services = () => {
           </span>
         </motion.div>
       
-        <div className="grid grid-cols-1 lg:grid-cols-2 xl:mx-auto gap-4  lg:gap-16 lg:px-24 mt-10">
+        <div className="grid grid-cols-1 lg:grid-cols-2 xl:mx-auto gap-4  lg:gap-16 lg:px-24 mt-10 ">
          
          
             {Categories.map((category, i) => (
               <motion.div
                 key={i}
-                className=" lg:flex lg:px-10 py-5  bg-gradient-to-r from-[#050107] via-[#05040f] to-[#000000] rounded-2xl px-4 border border-slate-700 transition duration-300 hover:border-purple-200"  variants={upAnimation}
+                className=" lg:flex lg:px-10 py-5  bg-gradient-to-r from-[#0e0114] via-[#05040f] to-[#0e0114] rounded-2xl px-4 border border-slate-700 transition duration-300 hover:from-[#050107] hover:via-[#05040f] hover:to-[#000000]"  variants={upAnimation}
                 animate={controls}
                 transition={{ delay: 0.1, type: "tween" }}
               >
