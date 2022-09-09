@@ -11,7 +11,7 @@ export default function App() {
       
 
       
-      <button className='fixed bottom-8 right-8 bg-gradient-to-r from-[#0f0f15] via-[#2a2234] to-[#121215] px-3 py-3 shadow-lg rounded-full'
+      <button className='fixed bottom-8 right-8 bg-gradient-to-r from-purple-900 to-violet-800 px-3 py-3 shadow-lg rounded-full'
         onClick={() => {
           window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
         }}
