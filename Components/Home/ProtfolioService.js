@@ -68,7 +68,7 @@ const ProtfolioService = () => {
             animate={controls}
             transition={{ delay: 0.1, type: "tween" }}
           >
-            <img className="w-24 mx-auto" src={category.image} alt="" />
+            <img className="w-24 mx-auto " src={category.image} alt="" />
             <p className="text-2xl font-semibold text-gray-100">{category.title}</p>
             <p className="text-xl pt-4 text-gray-400">{category.text}</p>
           </motion.div>

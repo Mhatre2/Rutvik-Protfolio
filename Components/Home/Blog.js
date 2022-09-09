@@ -58,7 +58,7 @@ const Blog = () => {
             transition={{ delay: 0.1, type: "tween" }}
           >
             <div className="relative ">
-            <img className=" mx-auto rounded-xl" src={category.image} alt="" />
+            <img className=" mx-auto rounded-xl transition duration-300 hover:scale-105" src={category.image} alt="" />
             <div className="flex text-white flex-col items-center absolute -space-y-1 top-4 right-4 bg-gradient-to-r from-[#0c0c6a] via-[#25064d] to-[#0c0c6a] px-3 py-1 rounded-2xl shadow-lg">
                 <p className="capitalize">{category.date}</p>
                 <p className="capitalize">{category.month}</p>
