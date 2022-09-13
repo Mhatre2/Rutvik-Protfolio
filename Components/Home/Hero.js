@@ -56,7 +56,7 @@ const Hero = () => {
       </div>
       <div className=""  >
     
-        <img className="" src="/Assets/main.svg" alt="" />
+        <img className="" src="/Assets/main2.svg" alt="" />
       </div>
     </motion.div>
     </div>

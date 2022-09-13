@@ -64,7 +64,7 @@ const ProtfolioService = () => {
         {Categories.map((category, i) => (
           <motion.div
             key={i}
-            className=" items-center text-center px-6 py-6 rounded-2xl hover:bg-gradient-to-r from-[#030332] via-[#100113] to-[#030332] hover:border border-purple-200"  variants={downAnimation}
+            className=" items-center text-center px-6 py-6 rounded-2xl hover:bg-gradient-to-r from-[#030332] via-[#100113] to-[#030332] hover:border border-purple-300"  variants={downAnimation}
             animate={controls}
             transition={{ delay: 0.1, type: "tween" }}
           >
@@ -74,6 +74,7 @@ const ProtfolioService = () => {
           </motion.div>
         ))}
       </div>
+    
     </div>
   );
 };
