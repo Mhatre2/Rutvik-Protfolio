@@ -10,7 +10,7 @@ const FigmaPlugins = () => {
     <>
       <div className="" ref={element}>
         <motion.div
-          className="py-10 h-[550px] container bg-gradient-to-r from-[#021125] via-[#180901] to-[#021125] "
+          className="py-10  container bg-gradient-to-r from-[#021125] via-[#180901] to-[#021125] "
           variants={upAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}
