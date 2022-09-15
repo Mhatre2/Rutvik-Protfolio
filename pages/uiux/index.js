@@ -1,10 +1,12 @@
 import React from 'react'
-import UI from '../../Components/UIUX/UI'
+import Tools from '../../Components/UIUX/Tools'
+import UIHero from '../../Components/UIUX/UIHero'
 
 const index = () => {
   return (
-    <div>
-        <UI/>
+    <div className='py-16'>
+        <UIHero/>
+        <Tools/>
     </div>
   )
 }

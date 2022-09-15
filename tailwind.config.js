@@ -18,6 +18,7 @@ module.exports = {
     fontFamily: {
       monoton:["Monoton", "cursive"],
       infinite: ["Outfit", "sans-serif"],
+      bebasneo: ['Bebas Neue', 'cursive'],
     },
     extend: {
       boxShadow: {

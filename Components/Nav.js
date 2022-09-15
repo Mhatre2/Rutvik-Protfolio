@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <div>
     <nav className="">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-16 fixed top-0 z-50 bg-gradient-to-r from-[#010113] via-[#130227] to-[#010113]/80  drop-shadow-lg border-b border-purple-400">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-16 w-full fixed top-0 z-50 bg-gradient-to-r from-[#010113] via-[#130227] to-[#010113]/80  drop-shadow-lg border-b border-purple-400">
         <div className="flex items-center justify-between h-16">
           <Link href="/">
           <div className="flex-shrink-0 cursor-pointer">

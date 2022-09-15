@@ -1,14 +1,10 @@
-import Head from "next/head";
-import Image from "next/image";
 import BacktoTop from "../Components/BackToTop";
-import Footer from "../Components/Footer";
 import Blog from "../Components/Home/Blog";
 import Hero from "../Components/Home/Hero";
 import NewsLetter from "../Components/Home/NewsLetter";
 import ProtfolioService from "../Components/Home/ProtfolioService";
 import Service from "../Components/Home/Service";
 import Services from "../Components/Home/Services";
-import Nav from "../Components/Nav";
 
 export default function Home() {
   return (
@@ -19,8 +15,6 @@ export default function Home() {
       <Services />
       <Blog />
       <NewsLetter />
-
-      <BacktoTop />
     </div>
   );
 }
