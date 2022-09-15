@@ -1,4 +1,5 @@
 import React from "react";
+import 'animate.css';
 import { motion } from "framer-motion";
 import { leftAnimation,imageAnimation, rightAnimation ,upAnimation,downAnimation} from "../../styles/Animation";
 import { useScroll } from "../UseScroll";
@@ -10,7 +11,7 @@ const Hero = () => {
   const [element,controls]= useScroll();
   return (
     <>
-    <div className="relative lg:h-screen lg:py-5 sm:pt-0 py-20 bg-gradient-to-r from-[#030332] via-[#100114] to-[#030332]" ref={element}>
+    <div className="relative lg:h-screen lg:py-5 sm:pt-0 py-20 bg-gradient-to-r from-[#030332] via-[#100114] to-[#030332] animate__animated animate__zoomIn animate__delay-.5s" ref={element}>
     <motion.div className="container my-auto grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center lg:pt-24 "  variants={downAnimation}
                animate={controls}
                transition={{ delay: 0.2, type: "tween" }}>

@@ -54,7 +54,7 @@ const FigmaPlugins = () => {
         >
           <div className="flex flex-col justify-center items-center">
             <p className="text-5xl capitalize text-white font-bebasneo text-center">
-              My favourite Figma plugins
+              My favorite Figma plugins
             </p>
             <p className="text-gray-400 max-w-xl text-center mt-3">
               I use some useful figma plugins for designers of all levels that helps

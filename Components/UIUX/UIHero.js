@@ -2,14 +2,14 @@ import React from "react";
 import { motion } from "framer-motion";
 import { downAnimation, upAnimation } from "../../styles/Animation";
 import { useScroll } from "../UseScroll";
-
+import 'animate.css';
 const UIHero = () => {
   const [element, controls] = useScroll();
 
   return (
     <>
 
-    <div className="container lg:h-screen" ref={element}>
+    <div className="container lg:h-screen animate__animated animate__zoomIn animate__delay-.5s" ref={element}>
         <motion.div className="bg-gradient-to-r from-[#032a41] via-[#650a45] to-[#032a41] mt-5 rounded-t-[50px] lg:rounded-[50px] flex flex-col justify-center items-center lg:-space-y-40"   variants={upAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}>
