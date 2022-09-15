@@ -69,7 +69,7 @@ const FigmaPlugins = () => {
               animate={controls}
               transition={{ delay: 0.1, type: "tween" }}
             >
-                 <a href="#">
+                 <a href="https://www.figma.com/community" target="_blank">
                 <div className="px-3 flex justify-between items-center py-5">
                   <div className="flex">
                     <img
