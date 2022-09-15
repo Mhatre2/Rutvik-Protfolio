@@ -21,7 +21,7 @@ const Tools = () => {
           </span>
         </div>
 
-        
+        <p>This tools helps me my productivity and also takew some note and get inspiration and save that for my future work</p>
        
         </motion.div>
       
