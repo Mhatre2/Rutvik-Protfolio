@@ -10,7 +10,7 @@ const FigmaPlugins = () => {
     <>
       <div className="" ref={element}>
         <motion.div
-          className="py-10  container bg-gradient-to-r from-[#021125] via-[#180901] to-[#021125] "
+          className="py-10 h-[550px] container bg-gradient-to-r from-[#021125] via-[#180901] to-[#021125] "
           variants={upAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}
@@ -26,7 +26,7 @@ const FigmaPlugins = () => {
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 py-10">
-            <div className=" rounded-2xl bg-gradient-to-r from-[#023a39] via-[#074847] to-[#023a39] shadow-lg cursor-pointer hover:scale-95">
+            <div className=" rounded-2xl border border-[#50ac9f] shadow-lg cursor-pointer hover:scale-95">
             <a href="#">
             <div className="px-3 flex justify-between items-center py-5">
                 <div className="flex">
@@ -46,7 +46,7 @@ const FigmaPlugins = () => {
             </a>
              
             </div>
-            <div className=" rounded-2xl bg-gradient-to-r from-[#085585] via-[#085585] to-[#085585] shadow-lg cursor-pointer hover:scale-95">
+            <div className=" rounded-2xl border border-[#538cdd] shadow-lg cursor-pointer hover:scale-95">
             <a href="#">
             <div className="px-3 flex justify-between items-center py-5">
                 <div className="flex">
@@ -67,7 +67,7 @@ const FigmaPlugins = () => {
              
             </div>
 
-            <div className=" rounded-2xl bg-gradient-to-r from-[#5da1a9] via-[#579ea6] to-[#5da1a9] shadow-lg cursor-pointer hover:scale-95">
+            <div className=" rounded-2xl border border-[#91d7df] shadow-lg cursor-pointer hover:scale-95">
             <a href="#">
             <div className="px-3 flex justify-between items-center py-5">
                 <div className="flex">
