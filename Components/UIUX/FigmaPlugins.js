@@ -92,30 +92,7 @@ const FigmaPlugins = () => {
           ))}
         </div>
 
-          {/* <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 py-10">
-            <div className=" rounded-2xl border border-[#50ac9f] shadow-lg cursor-pointer hover:scale-95">
-              <a href="#">
-                <div className="px-3 flex justify-between items-center py-5">
-                  <div className="flex">
-                    <img
-                      className="w-20 h-20 rounded-xl"
-                      src="/Assets/uiux/pexels.svg"
-                      alt=""
-                    />
-                    <div className="pl-4  flex flex-col  gap-1">
-                      <p className="text-white font-medium lg:text-xl">
-                        Travel Mobile App UI Kits.
-                      </p>
-                      <p className="text-gray-500 font-medium text-xs lg:text-sm">
-                        Add completely free images to your designs directly from
-                        Pexels.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div> */}
+       
         </motion.div>
       </div>
     </>
