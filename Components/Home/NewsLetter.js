@@ -12,7 +12,7 @@ const NewsLetter = () => {
   const [element, controls] = useScroll();
   return (
   <>
-    <div className="container mx-auto my-10 lg:px-40 py-10" ref={element}>
+    <div className="container mx-auto  lg:px-40 py-10" ref={element}>
     <motion.div className="text-6xl lg:text-8xl uppercase text-center font-monoton text-gray-300 py-5"    variants={upAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}>Get In touch</motion.div>

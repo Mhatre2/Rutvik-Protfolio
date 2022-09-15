@@ -5,7 +5,7 @@ import { useScroll } from './UseScroll';
 const Footer = () => {
   const [element, controls] = useScroll();
   return (
-    <div className='container mx-auto bg-gradient-to-r from-[#03033b] via-[#230929] to-[#03033b] py-20 rounded-t-[60px]' ref={element}>
+    <div className='px-20 bg-gradient-to-r from-[#03033b] via-[#230929] to-[#03033b] py-20 rounded-t-[60px]' ref={element}>
         {/* <p className='text-5xl font-semibold text-center max-w-xl flex justify-center items-center mx-auto text-white'>See if Designjoy is right for you. (It totally is.)</p>
         <p className='text-xl text-center max-w-xl flex justify-center items-center mx-auto mt-6 text-white'>Get a guided tour through Designjoy, and find out how you and your team can change the way you source design, forever.</p> */}
         <motion.div className="lg:flex lg:flex-row flex-wrap justify-between lg:gap-20 items-center flex flex-col"  variants={downAnimation}
