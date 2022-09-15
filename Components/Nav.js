@@ -32,6 +32,14 @@ const Nav = () => {
                   href="uiux"
                  
                 >
+                  <p  className="font-medium text-[18px] text-white cursor-pointer">UX</p>
+                
+                </Link>
+
+                <Link
+                  href="uiux"
+                 
+                >
                   <p  className="font-medium text-[18px] text-white cursor-pointer">Blog</p>
                 
                 </Link>
@@ -48,15 +56,7 @@ const Nav = () => {
                   href="uiux"
                  
                 >
-                  <p  className="font-medium text-[18px] text-white cursor-pointer">UI/UX</p>
-                
-                </Link>
-
-                <Link
-                  href="uiux"
-                 
-                >
-                  <p  className="font-medium text-[18px] text-white cursor-pointer">UI/UX</p>
+                  <p  className="font-medium text-[18px] text-white cursor-pointer">Services</p>
                 
                 </Link>
                 <a
@@ -131,7 +131,7 @@ const Nav = () => {
                   href="uiux"
                  
                 >
-                  <p  className="font-medium text-[18px] text-white cursor-pointer">UI/UX</p>
+                  <p  className="font-medium text-[18px] text-white cursor-pointer">UI</p>
                 
                 </Link>
 
@@ -139,7 +139,7 @@ const Nav = () => {
                   href="uiux"
                  
                 >
-                  <p  className="font-medium text-[18px] text-white cursor-pointer">UI/UX</p>
+                  <p  className="font-medium text-[18px] text-white cursor-pointer">UX</p>
                 
                 </Link>
 
@@ -147,7 +147,7 @@ const Nav = () => {
                   href="uiux"
                  
                 >
-                  <p  className="font-medium text-[18px] text-white cursor-pointer">UI/UX</p>
+                  <p  className="font-medium text-[18px] text-white cursor-pointer">Blog</p>
                 
                 </Link>
 
@@ -155,7 +155,7 @@ const Nav = () => {
                   href="uiux"
                  
                 >
-                  <p  className="font-medium text-[18px] text-white cursor-pointer">UI/UX</p>
+                  <p  className="font-medium text-[18px] text-white cursor-pointer">Portfolio</p>
                 
                 </Link>
 
@@ -163,7 +163,7 @@ const Nav = () => {
                   href="uiux"
                  
                 >
-                  <p  className="font-medium text-[18px] text-white cursor-pointer">UI/UX</p>
+                  <p  className="font-medium text-[18px] text-white cursor-pointer">Services</p>
                 
                 </Link>
               <a
