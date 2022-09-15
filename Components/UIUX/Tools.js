@@ -9,19 +9,36 @@ const Tools = () => {
   return (
     <>
 
-    <div className="h-screen" ref={element}>
-        <motion.div className=" container bg-gradient-to-r from-[#032a41] via-[#650a45] to-[#032a41] my-10 "   variants={downAnimation}
+    <div className="" ref={element}>
+        <motion.div className="lg:py-20 py-10 container bg-gradient-to-r from-[#011018] via-[#10000b] to-[#011018] "  variants={downAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}>
-        
-        <div className="flex items-center gap-3">
-          <hr className="w-10 bg-white-500  "/>
-          <span className="md:text-[18px] font-medium text-gray-400 ">
-          Tools I use for my daily work
-          </span>
+        <div className="flex flex-col justify-center items-center">
+     <p className="text-5xl capitalize text-white font-bebasneo text-center">Tools I use for my daily work </p>
+        <p className="text-gray-400 max-w-xl text-center mt-3">The best way to stay on top of my work is by using these four essential tools, either working solo or collaboratively in team.</p>
         </div>
 
-        <p>This tools helps me my productivity and also takew some note and get inspiration and save that for my future work</p>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 py-10" >
+            <div className="flex justify-center items-center flex-col px-2 rounded-2xl py-6 hover:bg-gradient-to-r from-[#032a41] via-[#6095ac] to-[#032a41] hover:shadow-xl hover:skew-y-6 transition duration-400">
+            <img className="w-28 h-28" src="/Assets/figma.svg" alt="" />
+            <p className="text-white font-medium text-xl">Figma</p>
+            </div>
+            <div className="flex justify-center items-center flex-col px-2 rounded-2xl py-6 hover:bg-gradient-to-r from-[#032a41] via-[#6095ac] to-[#032a41] hover:shadow-xl hover:skew-x-6 transition duration-400">
+            <img className="w-28 h-28" src="/Assets/notion.svg" alt="" />
+            <p className="text-white font-medium text-xl">Notion</p>
+            </div>
+            <div className="flex justify-center items-center flex-col px-2 rounded-2xl py-6 hover:bg-gradient-to-r from-[#032a41] via-[#6095ac] to-[#032a41] hover:shadow-xl hover:skew-y-6 transition duration-400">
+            <img className="w-28 h-28" src="/Assets/framer.svg" alt="" />
+            <p className="text-white font-medium text-xl">Framer</p>
+            </div>
+            <div className="flex justify-center items-center flex-col px-2 rounded-2xl py-6 hover:bg-gradient-to-r from-[#032a41] via-[#6095ac] to-[#032a41] hover:shadow-xl hover:skew-y-6 transition duration-400">
+            <img className="w-28" src="/Assets/figma.svg" alt="" />
+            <p className="text-white font-medium text-xl">Figma</p>
+            </div>
+          
+            
+        </div>
        
         </motion.div>
       

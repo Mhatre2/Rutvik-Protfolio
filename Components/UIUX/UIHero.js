@@ -10,7 +10,7 @@ const UIHero = () => {
     <>
 
     <div className="container lg:h-screen" ref={element}>
-        <motion.div className="bg-gradient-to-r from-[#032a41] via-[#650a45] to-[#032a41] my-10  rounded-t-[50px] lg:rounded-[50px] flex flex-col justify-center items-center lg:-space-y-40"   variants={upAnimation}
+        <motion.div className="bg-gradient-to-r from-[#032a41] via-[#650a45] to-[#032a41] mt-5 rounded-t-[50px] lg:rounded-[50px] flex flex-col justify-center items-center lg:-space-y-40"   variants={upAnimation}
           animate={controls}
           transition={{ delay: 0.2, type: "tween" }}>
             <div className="flex flex-col items-center justify-center gap-10" >
