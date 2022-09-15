@@ -87,6 +87,66 @@ const FigmaPlugins = () => {
             </a>
              
             </div>
+            <div className=" rounded-2xl border border-[#ff2b6d] shadow-lg cursor-pointer hover:scale-95">
+            <a href="#">
+            <div className="px-3 flex justify-between items-center py-5">
+                <div className="flex">
+                  <img className="w-20 h-20 rounded-xl" src="/Assets/uiux/openicon.png" alt="" />
+                  <div className="pl-4  flex flex-col  gap-1">
+                    <p className="text-white font-medium lg:text-xl">
+                      Travel Mobile App UI Kits.
+                    </p>
+                    <p className="text-gray-300 font-medium text-xs lg:text-sm">
+                    Add completely free images to your designs directly from Pexels.
+                    </p>
+                  
+                  </div>
+                </div>
+              
+              </div>
+            </a>
+             
+            </div>
+            <div className=" rounded-2xl border border-[#c988f1] shadow-lg cursor-pointer hover:scale-95">
+            <a href="#">
+            <div className="px-3 flex justify-between items-center py-5">
+                <div className="flex">
+                  <img className="w-20 h-20 rounded-xl" src="/Assets/uiux/contentreel.svg" alt="" />
+                  <div className="pl-4  flex flex-col  gap-1">
+                    <p className="text-white font-medium lg:text-xl">
+                      Travel Mobile App UI Kits.
+                    </p>
+                    <p className="text-gray-300 font-medium text-xs lg:text-sm">
+                    Add completely free images to your designs directly from Pexels.
+                    </p>
+                  
+                  </div>
+                </div>
+              
+              </div>
+            </a>
+             
+            </div>
+            <div className=" rounded-2xl border border-[#e3e3e3] shadow-lg cursor-pointer hover:scale-95">
+            <a href="#">
+            <div className="px-3 flex justify-between items-center py-5">
+                <div className="flex">
+                  <img className="w-20 h-20 rounded-xl" src="/Assets/uiux/unsplash.svg" alt="" />
+                  <div className="pl-4  flex flex-col  gap-1">
+                    <p className="text-white font-medium lg:text-xl">
+                      Travel Mobile App UI Kits.
+                    </p>
+                    <p className="text-gray-300 font-medium text-xs lg:text-sm">
+                    Add completely free images to your designs directly from Pexels.
+                    </p>
+                  
+                  </div>
+                </div>
+              
+              </div>
+            </a>
+             
+            </div>
           </div>
         </motion.div>
       </div>
