@@ -64,14 +64,14 @@ const FigmaIcons = () => {
                 transition={{ delay: 0.1, type: "tween" }}
               >
                 <a href={category.link} target="_blank">
-                  <div className=" mx-auto flex flex-col justify-center items-center relative border border-purple-300 rounded-3xl">
+                  <div className=" mx-auto flex flex-col justify-center items-center relative border-[1px] border-purple-300 rounded-2xl hover:-translate-y-3 transition duration-500">
                     <img
-                      className="w-40 h-52 rounded-3xl pt-5"
+                      className="w-40 h-52 rounded-2xl pt-5"
                       src={category.image}
                       alt=""
                     />
 
-                    <p className="absolute bottom-[1px]  text-center text-white shadow-card-shadow font-medium lg:text-xl bg-purple-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 px-5 py-7 w-full rounded-b-3xl">
+                    <p className="absolute bottom-[1px] font-clash font-semibold text-center text-white shadow-card-shadow lg:text-xl bg-purple-300  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 px-5 py-7 w-full rounded-2xl rounded-t-none">
                       {category.title}
                     
                     </p>

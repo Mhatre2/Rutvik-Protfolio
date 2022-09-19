@@ -48,7 +48,7 @@ const FigmaIcons = () => {
             <p className="text-5xl capitalize text-white font-bebasneo text-center">
               My favorite Figma Fonts
             </p>
-            <p className="text-gray-400 max-w-xl text-center mt-3">
+            <p className="text-gray-400 max-w-xl text-center mt-3 font-clash">
               I use some useful figma plugins for designers of all levels that
               helps me speed up and spice up my designs.
             </p>
@@ -62,14 +62,14 @@ const FigmaIcons = () => {
                 transition={{ delay: 0.1, type: "tween" }}
               >
                 <a href={category.link} target="_blank">
-                  <div className=" mx-auto flex flex-col justify-center items-center relative">
+                  <div className=" mx-auto flex flex-col justify-center items-center relative hover:-translate-y-3 transition duration-500">
                     <img
                       className="w-40 h-52 rounded-xl pt-5"
                       src={category.image}
                       alt=""
                     />
 
-                    <p className="absolute bottom-0 text-center text-white shadow-card-shadow font-medium lg:text-xl bg-purple-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 px-5 py-7 w-full rounded-b-xl">
+                    <p className="absolute bottom-0 text-center text-white shadow-card-shadow font-semibold lg:text-xl bg-purple-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 px-5 py-7 w-full rounded-b-xl font-clash ">
                       {category.title}
                     </p>
                   </div>

@@ -64,14 +64,14 @@ const FigmaPlugins = () => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 py-10">
           {Categories.map((category, i) => (
             <motion.div
-              className=" rounded-2xl border border-[#7250ac] shadow-lg cursor-pointer hover:scale-95"
+              className=" rounded-2xl border border-[#7250ac] shadow-lg cursor-pointer "
               variants={upAnimation}
               animate={controls}
               transition={{ delay: 0.1, type: "tween" }}
             >
                  <a href="https://www.figma.com/community" target="_blank">
-                <div className="px-3 flex justify-between items-center py-5">
-                  <div className="flex">
+                <div className="px-3 flex justify-between items-center py-5 ">
+                  <div className="flex hover:-translate-y-1 transition duration-500">
                     <img
                       className="w-20 h-20 rounded-xl"
                       src={category.image}
