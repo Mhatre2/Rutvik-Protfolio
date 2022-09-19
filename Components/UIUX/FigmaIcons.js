@@ -44,7 +44,7 @@ const FigmaIcons = () => {
           className="py-10  container bg-gradient-to-r from-[#021125] via-[#180901] to-[#021125] "
           variants={upAnimation}
           animate={controls}
-          transition={{ delay: 0.2, type: "tween" }}
+          transition={{ delay: 0.1, type: "tween" }}
         >
           <div className="flex flex-col justify-center items-center">
             <p className="text-5xl capitalize text-white font-bebasneo text-center">
@@ -64,14 +64,14 @@ const FigmaIcons = () => {
                 transition={{ delay: 0.1, type: "tween" }}
               >
                 <a href={category.link} target="_blank">
-                  <div className=" mx-auto flex flex-col justify-center items-center relative bg-gradient-to-r from-[#032c2f] via-[#0a6065] to-[#082224] rounded-3xl">
+                  <div className=" mx-auto flex flex-col justify-center items-center relative border border-purple-300 rounded-3xl">
                     <img
                       className="w-40 h-52 rounded-3xl pt-5"
                       src={category.image}
                       alt=""
                     />
 
-                    <p className="absolute bottom-0  text-center text-white shadow-card-shadow font-medium lg:text-xl bg-purple-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 px-5 py-7 w-full rounded-b-3xl">
+                    <p className="absolute bottom-[1px]  text-center text-white shadow-card-shadow font-medium lg:text-xl bg-purple-300 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 px-5 py-7 w-full rounded-b-3xl">
                       {category.title}
                     
                     </p>

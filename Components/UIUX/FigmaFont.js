@@ -42,7 +42,7 @@ const FigmaIcons = () => {
           className="py-10  container bg-gradient-to-r from-[#021125] via-[#180901] to-[#021125] "
           variants={upAnimation}
           animate={controls}
-          transition={{ delay: 0.2, type: "tween" }}
+          transition={{ delay: 0.1, type: "tween" }}
         >
           <div className="flex flex-col justify-center items-center">
             <p className="text-5xl capitalize text-white font-bebasneo text-center">
