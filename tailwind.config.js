@@ -27,7 +27,7 @@ module.exports = {
         "5xl": " 0vw 0.5vw 0.5vw 0vw rgb(32 32 32 / 16%)",
         glass: "1px 5px 12px 1px rgba( 31, 38, 135, 0.37 )",
         "glass-card": "4px 4px 4px 4px rgba( 32, 32, 32, 0.37 )",
-        "card-shadow": "0px 0px 12px #CCCCCC",
+        "card-shadow": "0 8px 32px 0 rgba( 31, 38, 135, 0.37 )",
         "dark-shadow": "10px 10px 5px 0px rgba(130,130,130,0.75)"
       },
 
