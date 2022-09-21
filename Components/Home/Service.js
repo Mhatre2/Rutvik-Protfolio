@@ -26,7 +26,7 @@ const Service = () => {
       text: "Mobile App",
       loved: "200",
       view: "23",
-      image: "/Assets/protfolio/medical.svg",
+      image: "/Assets/protfolio/medical.png",
     },
     {
       id: 3,
