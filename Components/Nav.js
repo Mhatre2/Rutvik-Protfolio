@@ -53,10 +53,10 @@ const Nav = () => {
                 </Link>
 
                 <Link
-                  href="uiux"
+                  href="projects"
                  
                 >
-                  <p  className="font-medium text-[18px] text-white cursor-pointer">Services</p>
+                  <p  className="font-medium text-[18px] text-white cursor-pointer">Projects</p>
                 
                 </Link>
                 <a
