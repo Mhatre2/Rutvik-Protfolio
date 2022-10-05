@@ -18,7 +18,7 @@ const ShowCase = () => {
                 <div className="absolute -right-6 -bottom-10 hover:scale-110 transition duration-300 hover:blur-md">
                     <button className="hidden lg:flex bg-gradient-to-r from-purple-500 to-purple-400 hover:from-pink-500 hover:to-yellow-500 lg:w-32 lg:h-32 rounded-full text-white flex-col items-center justify-center">
                     <BsFillArrowDownRightCircleFill className="lg:text-2xl"/>
-                   <p>Demo</p>
+                   <p>Live Site</p>
                     </button>
                 </div>
                 </div>
@@ -68,7 +68,7 @@ const ShowCase = () => {
                 <div className="absolute -right-6 -bottom-10 hover:scale-110 transition duration-300 hover:blur-md">
                     <button className="hidden lg:flex bg-gradient-to-r from-purple-500 to-purple-400 hover:from-pink-500 hover:to-yellow-500 lg:w-32 lg:h-32 rounded-full text-white flex-col items-center justify-center">
                     <BsFillArrowDownRightCircleFill className="lg:text-2xl"/>
-                   <p>Demo</p>
+                   <p>Live Site</p>
                     </button>
                 </div>
                 </div>
