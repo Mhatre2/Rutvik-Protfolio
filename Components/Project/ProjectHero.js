@@ -16,12 +16,12 @@ const ProjectHero = () => {
         <div className="flex items-center gap-3">
           <hr className="w-10 bg-white-500  "/>
           <span className="md:text-[18px] font-medium text-gray-400 ">
-            UI/UX Designer  Developer 
+            Development Projects
           </span>
         </div>
         <p className="text-[40px] lg:text-[50px] xl:text-[57px] font-bold leading-tight mt-5 sm:mt-0 text-gray-100">
-          I'm Rownok Mahbub <br />
-          Designer And Developer 
+          My projects of<br />
+          Designing & Developing
         </p>
         <p className="mt-5 md:text-md text-gray-400">
           I'm creative designer based in Bangladesh, and I'm very passionate and
@@ -36,9 +36,9 @@ const ProjectHero = () => {
         </div>
     
       </div>
-      <div className=""  >
+      <div className="">
     
-        <img className="" src="/Assets/main.svg" alt="" />
+        <img className="" src="/Assets/herorownok.png" alt="" />
       </div>
     </motion.div>
     </div>
