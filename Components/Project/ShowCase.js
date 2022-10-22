@@ -30,7 +30,6 @@ const ShowCase = () => {
                     <p className="text-gray-400 font-normal text-xl max-w-xl">2022</p>
                     <p className="text-white font-semibold text-3xl mt-10">Role</p>
                     <p className="text-gray-400 font-normal text-xl max-w-xl"> UI Designer</p>
-               
                 </div>
                 <button className="lg:hidden flex bg-gradient-to-r px-4 from-purple-500 to-purple-400 hover:from-pink-500 hover:to-yellow-500 lg:w-32 lg:h-32 rounded-full text-white  items-center justify-around gap-2 py-2">
                    

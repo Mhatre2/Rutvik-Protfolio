@@ -37,7 +37,7 @@ const Nav = () => {
                 </Link>
 
                 <Link
-                  href="uiux"
+                  href="blog"
                  
                 >
                   <p  className="font-medium text-[18px] text-white cursor-pointer">Blog</p>

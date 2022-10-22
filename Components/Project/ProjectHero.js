@@ -38,7 +38,7 @@ const ProjectHero = () => {
       </div>
       <div className="">
     
-        <img className="" src="/Assets/herorownok.png" alt="" />
+        <img className="" src="/Assets/projects.svg" alt="" />
       </div>
     </motion.div>
     </div>
