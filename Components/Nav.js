@@ -45,7 +45,7 @@ const Nav = () => {
                 </Link>
 
                 <Link
-                  href="uiux"
+                  href="portfolio"
                  
                 >
                   <p  className="font-medium text-[18px] text-white cursor-pointer">Portfolio</p>
