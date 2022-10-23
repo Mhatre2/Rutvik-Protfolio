@@ -2,8 +2,16 @@ import React from 'react'
 
 const BlogDetails = () => {
   return (
-    <div className='container mx-auto py-20'>
-       <img className='h-[500px] w-full object-cover rounded-xl overflow-hidden' src="/Assets/developmentblog.png" alt="hvh" />
+    <div className='container mx-auto py-20 '>
+      <div className="relative">
+        <img className='h-[500px] w-full object-cover rounded-xl overflow-hidden' src="/Assets/developmentblog.png" alt="hvh" />
+       
+       
+      
+     
+       <p className='absolute right-4 rounded-full top-4 text-white font-medium text-xl px-4 capitalize shadow-2xl py-2 bg-gradient-to-r from-cyan-500 to-blue-500'>technology</p>
+      </div>
+      
        <div className="flex justify-between items-center">
        <p className='text-4xl text-white font-medium my-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, dolore.</p>
        <p className='text-slate-300 text-lg'>20 Sep 2022</p>

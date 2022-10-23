@@ -15,10 +15,10 @@ const UIHero = () => {
           transition={{ delay: 0.2, type: "tween" }}>
             <div className="flex flex-col items-center justify-center gap-10" >
             <p className="uppercase text-white text-4xl lg:text-7xl text-center pt-10 lg:pt-20 font-bebasneo max-w-2xl">Ui design is the power to get any user attention</p>
-        <button className="font-medium uppercase text-[16px] flex items-center px-5 py-3 md:py-4 md:px-4 rounded-xl bg-gradient-to-r from-pink-300 to-purple-500 hover:from-pink-500 hover:to-yellow-500  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass text-center">
+        <a href="https://www.facebook.com/rownokmahbub" target='_blank' className="font-medium uppercase text-[16px] flex items-center px-5 py-3 md:py-4 md:px-4 rounded-xl bg-gradient-to-r from-pink-300 to-purple-500 hover:from-pink-500 hover:to-yellow-500  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass text-center">
                Get Free Design 😃
                 <span className="animate-ping absolute right-0 top-0 w-3 h-3  rounded-full bg-gradient-to-r from-purple -400 to-purple-700 "></span>
-              </button>
+              </a>
             </div>
     
         <div className="flex justify-center max-w-5xl">

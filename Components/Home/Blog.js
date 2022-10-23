@@ -7,6 +7,7 @@ import {
   upAnimation,downAnimation
 } from "../../styles/Animation";
 import { useScroll } from "../UseScroll";
+import Link from "next/link";
 const Blog = () => {
   const [element, controls] = useScroll();
   const Categories = [
@@ -58,14 +59,19 @@ const Blog = () => {
             transition={{ delay: 0.1, type: "tween" }}
           >
             <div className="relative ">
-            <img className=" mx-auto rounded-xl transition duration-300 hover:scale-105" src={category.image} alt="" />
+              <Link href='blog/blogdetails'>
+              <img className=" mx-auto rounded-xl transition duration-300 hover:scale-105" src={category.image} alt="" />
+              </Link>
+           
             <div className="flex text-white flex-col items-center absolute -space-y-1 top-4 right-4 bg-gradient-to-r from-[#0c0c6a] via-[#25064d] to-[#0c0c6a] px-3 py-1 rounded-2xl shadow-lg">
                 <p className="capitalize">{category.date}</p>
                 <p className="capitalize">{category.month}</p>
             </div>
             </div>
-           
-            <p className="text-2xl font-semibold text-gray-100 mt-2">{category.title}</p>
+           <Link href='blog/blogdetails'>
+           <p className="text-2xl font-semibold text-gray-100 mt-2 hover:underline">{category.title}</p>
+           </Link>
+          
             <p className="text-lg pt-2 text-gray-400">{category.text}</p>
           </motion.div>
         ))}
