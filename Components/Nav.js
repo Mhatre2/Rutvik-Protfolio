@@ -144,7 +144,7 @@ const Nav = () => {
                 </Link>
 
                 <Link
-                  href="uiux"
+                  href="blog"
                  
                 >
                   <p  className="font-medium text-[18px] text-white cursor-pointer">Blog</p>
@@ -152,7 +152,7 @@ const Nav = () => {
                 </Link>
 
                 <Link
-                  href="uiux"
+                  href="portfolio"
                  
                 >
                   <p  className="font-medium text-[18px] text-white cursor-pointer">Portfolio</p>
