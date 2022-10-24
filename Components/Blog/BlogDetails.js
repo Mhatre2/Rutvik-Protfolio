@@ -1,8 +1,8 @@
 import React from 'react'
-
+import 'animate.css';
 const BlogDetails = () => {
   return (
-    <div className='container mx-auto py-20 '>
+    <div className='container mx-auto py-20 animate__animated animate__backInUp animate__delay-.5s '>
       <div className="relative">
         <img className='h-[500px] w-full object-cover rounded-xl overflow-hidden' src="/Assets/developmentblog.png" alt="hvh" />
        

@@ -25,14 +25,16 @@ const BlogHero = () => {
     },
 ]
   return (
-    <div className='container mx-auto py-20'>
+    <div className='container mx-auto py-20 '>
        <div className=' grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10  items-center'>
         <div className="rounded-2xl overflow-hidden">
             <img src="/Assets/developmentblog.png" alt="" />
         </div>
         <div className="">
             <p className='text-xl font-medium text-cyan-500 capitalize mb-2 md:mb-4'>technology</p>
-            <p className='text-xl md:text-5xl font-medium text-white capitalize mb-2 md:mb-4 hover:underline cursor-pointer'>An Extraordinary WebGL Has Been Released By Great China Scientists</p>
+            <Link href='blog/blogdetails' className=''>
+                <p className='text-xl md:text-5xl font-medium text-white capitalize mb-2 md:mb-4 hover:underline cursor-pointer'>An Extraordinary WebGL Has Been Released By Great China Scientists</p>
+                </Link>
             <p className='text-sm md:text-base font-medium text-slate-300 capitalize line-clamp-3'>Back in 2019, Gucci brought video games to its app With a new
 section called Gucci Arcade, inspired by creative director Alessandria
 Michele's „unique ability to combine the Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum ipsa quas iure iusto adipisci unde, fugit minus atque sapiente veritatis dicta ut hic repellendus quisquam explicabo illum similique ratione cupiditate. Laudantium aperiam Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, nemo!....</p>

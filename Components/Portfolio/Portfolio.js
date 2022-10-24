@@ -12,7 +12,7 @@ import Skill from "./Skill";
 import LetestProject from "./LetestProject";
 const Portfolio = () => {
   return (
-    <div className="container mx-auto py-24 ">
+    <div className="container mx-auto py-24 animate__animated animate__backInUp animate__delay-.5s">
       <div className="grid grid-cols-1 md:grid-cols-4 rounded-2xl overflow-hidden shadow-xl border-2 border-purple-900">
         <div className="bg-gradient-to-r from-[#010113] to-[#0c0113] px-2 py-4 md:px-4 shadow-2xl border border-slate-800">
           <img
