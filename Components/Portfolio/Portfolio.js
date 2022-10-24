@@ -7,11 +7,13 @@ import {FaFacebook} from 'react-icons/fa'
 import {GrDribbble} from 'react-icons/gr'
 import {ImBehance} from 'react-icons/im'
 import {ImLinkedin2} from 'react-icons/im'
+import Experience from "./Experience";
+import Skill from "./Skill";
 const Portfolio = () => {
   return (
     <div className="container mx-auto py-20 ">
       <div className="grid grid-cols-1 md:grid-cols-4 rounded-lg overflow-hidden shadow-xl">
-        <div className="bg-gradient-to-r from-[#010113] to-[#0c0113] px-2 py-4 md:px-4">
+        <div className="bg-gradient-to-r from-[#010113] to-[#0c0113] px-2 py-4 md:px-4 shadow-2xl">
           <img
             className="w-32 h-32 object-cover rounded-full"
             src="/Assets/rownokmahbub.jpg"
@@ -165,7 +167,10 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-        <div className="md:col-span-3 bg-slate-800">\</div>
+        <div className="md:col-span-3 bg-gradient-to-r from-[#010116] to-[#15061f] p-6">
+          <Experience/>
+          <Skill/>
+        </div>
       </div>
     </div>
   );
