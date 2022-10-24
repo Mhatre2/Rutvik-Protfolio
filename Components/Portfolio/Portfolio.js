@@ -9,11 +9,12 @@ import {ImBehance} from 'react-icons/im'
 import {ImLinkedin2} from 'react-icons/im'
 import Experience from "./Experience";
 import Skill from "./Skill";
+import LetestProject from "./LetestProject";
 const Portfolio = () => {
   return (
-    <div className="container mx-auto py-20 ">
-      <div className="grid grid-cols-1 md:grid-cols-4 rounded-lg overflow-hidden shadow-xl">
-        <div className="bg-gradient-to-r from-[#010113] to-[#0c0113] px-2 py-4 md:px-4 shadow-2xl">
+    <div className="container mx-auto py-24 ">
+      <div className="grid grid-cols-1 md:grid-cols-4 rounded-lg overflow-hidden shadow-xl border-2 border-slate-500">
+        <div className="bg-gradient-to-r from-[#010113] to-[#0c0113] px-2 py-4 md:px-4 shadow-2xl ">
           <img
             className="w-32 h-32 object-cover rounded-full"
             src="/Assets/rownokmahbub.jpg"
@@ -170,6 +171,7 @@ const Portfolio = () => {
         <div className="md:col-span-3 bg-gradient-to-r from-[#010116] to-[#15061f] p-6">
           <Experience/>
           <Skill/>
+          <LetestProject/>
         </div>
       </div>
     </div>

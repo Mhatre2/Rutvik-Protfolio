@@ -23,7 +23,7 @@ const Experience = () => {
         <p className='text-white text-xl font-semibold'>Experience</p>
         {exp.map((ex,i)=>{
             return(
-                <div key={i} className="flex justify-between bg-gray-900 p-4 rounded-lg my-5">
+                <div key={i} className="flex flex-wrap md:justify-between bg-gradient-to-r from-slate-900 shadow-lg to-gray-900 p-4 rounded-lg my-5">
                 <div key={i} className="flex justify-between gap-5 items-center">
                 <img className='w-16 h-16 rounded-xl object-cover' src={ex.img} alt="" />
                 <div className='space-y-2'>
