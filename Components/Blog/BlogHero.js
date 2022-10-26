@@ -1,7 +1,10 @@
 import Link from 'next/link'
 import React from 'react'
-
+import { motion } from "framer-motion";
+import { leftAnimation,imageAnimation, rightAnimation ,upAnimation,downAnimation} from "../../styles/Animation";
+import { useScroll } from "../UseScroll";
 const BlogHero = () => {
+    const [element,controls]= useScroll();
     const Blog = [{
         tag:"travel",
         title:"Web Development is the new era",
@@ -25,8 +28,10 @@ const BlogHero = () => {
     },
 ]
   return (
-    <div className='container mx-auto py-20 '>
-       <div className=' grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10  items-center'>
+    <div className='container mx-auto py-20 ' ref={element}>
+       <motion.div className=' grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-10  items-center' variants={downAnimation}
+               animate={controls}
+               transition={{ delay: 0.2, type: "tween" }}>
         <div className="rounded-2xl overflow-hidden">
             <img src="/Assets/developmentblog.png" alt="" />
         </div>
@@ -46,7 +51,7 @@ Michele's „unique ability to combine the Lorem ipsum dolor sit amet consectetu
     </div>
 </div>
         </div>
-    </div>
+    </motion.div>
     <p className='text-center text-4xl md:text-6xl text-white font-bebasneo my-10'>My Resent Blog</p>
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 md:gap-16 my-10">
      {Blog.map((blog,i)=>{
