@@ -33,8 +33,8 @@ const Skill = () => {
     </div>
 
     <div className='flex flex-col md:flex-row  items-center gap-5 my-5'>
-       <div className="flex flex-col items-center border border-purple-600 p-6 rounded-lg w-44">
-            <div className="bg-purple-600 px-2 py-2 rounded-full">
+       <div className="flex flex-col items-center border border-cyan-600 p-6 rounded-lg w-44">
+            <div className="bg-cyan-600 px-2 py-2 rounded-full">
                 <SiAltiumdesigner className='text-white'/>
             </div>
             <p className='capitalize text-white '>Development</p>

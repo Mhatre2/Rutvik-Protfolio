@@ -1,6 +1,8 @@
 import React from "react";
 import { RiLinkM } from "react-icons/ri";
-
+import { motion } from "framer-motion";
+import { leftAnimation,imageAnimation, rightAnimation ,upAnimation,downAnimation} from "../../styles/Animation";
+import { useScroll } from "../UseScroll";
 const LetestProject = () => {
   const exp = [
     {
@@ -17,10 +19,13 @@ const LetestProject = () => {
       },
    
   ];
+  const [element,controls]= useScroll();
   return (
-    <div>
-      <p className="text-white text-xl font-semibold">Experience</p>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10  my-5">
+    <div ref={element}  variants={downAnimation}
+    animate={controls}
+    transition={{ delay: 0.2, type: "tween" }}>
+      <p className="text-white text-xl font-semibold">Latest Projects</p>
+      <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-10  my-5">
         {exp.map((ex, i) => {
           return (
             <div
@@ -47,7 +52,7 @@ const LetestProject = () => {
             </div>
           );
         })}
-      </div>
+      </motion.div>
     </div>
   );
 };

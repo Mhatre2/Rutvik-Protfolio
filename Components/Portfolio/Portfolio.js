@@ -10,6 +10,7 @@ import {ImLinkedin2} from 'react-icons/im'
 import Experience from "./Experience";
 import Skill from "./Skill";
 import LetestProject from "./LetestProject";
+import Tools from "./Tools";
 const Portfolio = () => {
   return (
     <div className="container mx-auto py-24 animate__animated animate__backInUp animate__delay-.5s">
@@ -172,6 +173,7 @@ const Portfolio = () => {
           <Experience/>
           <Skill/>
           <LetestProject/>
+          <Tools/>
         </div>
       </div>
     </div>
