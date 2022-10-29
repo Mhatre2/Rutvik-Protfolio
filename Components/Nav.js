@@ -60,7 +60,7 @@ const Nav = () => {
                 
                 </Link>
                 <a
-                  href="#"
+                  href="cv"
                   className="font-medium text-[18px] text-gray-200 py-2 px-4  capitalize bg-gradient-to-r from-purple-300 to-purple-500 hover:from-pink-500 hover:to-yellow-500 rounded-[20px] transition duration-300 hover:scale-105 "
                 >
                     Download CV
@@ -126,7 +126,7 @@ const Nav = () => {
       >
         {(ref) => (
           <div className="md:hidden " id="mobile-menu">
-            <div ref={ref} className="px-2 pt-20 pb-5 space-y-3 sm:px-3 flex flex-col items-center bg-gradient-to-r from-[#010113] via-[#130227] to-[#010113]">
+            <div ref={ref} className="w-full px-2 pt-20 pb-5 space-y-3 sm:px-3 flex flex-col items-center bg-gradient-to-r from-[#010113] via-[#130227] to-[#010113]">
             <Link
                   href="uiux"
                  
@@ -167,7 +167,7 @@ const Nav = () => {
                 
                 </Link>
               <a
-                  href="#"
+                  href="cv"
                   className="font-medium text-[18px] text-gray-200 py-2 px-4  capitalize bg-gradient-to-r from-orange-300 to-orange-500 hover:from-pink-500 hover:to-yellow-500 rounded-[20px] transition duration-300 hover:scale-105 "
                 >
                     Download CV
