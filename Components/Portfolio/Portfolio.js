@@ -15,7 +15,7 @@ const Portfolio = () => {
   return (
     <div className="container mx-auto py-24 animate__animated animate__backInUp animate__delay-.5s">
       <div className="grid grid-cols-1 md:grid-cols-4 rounded-2xl overflow-hidden shadow-xl border-2 border-purple-900">
-        <div className="bg-gradient-to-r from-[#010113] to-[#0c0113] px-2 py-4 md:px-4 shadow-2xl border-r-2 border-slate-800">
+        <div className="bg-gradient-to-r from-[#010113] to-[#040c13] px-2 py-4 md:px-4 shadow-2xl border-r-2 border-slate-800">
           <img
             className="w-32 h-32 object-cover rounded-full"
             src="/Assets/rownokmahbub.jpg"
@@ -169,7 +169,7 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-        <div className="md:col-span-3 bg-gradient-to-r from-[#0c0113] to-[#010116] p-6">
+        <div className="md:col-span-3 bg-gradient-to-r from-[#040c13] to-[#010116] p-6">
           <Experience/>
           <Skill/>
           <LetestProject/>
