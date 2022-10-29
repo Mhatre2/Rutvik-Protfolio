@@ -9,7 +9,7 @@ import {
   upAnimation,
 } from "../../styles/Animation";
 import { useScroll } from "../UseScroll";
-import { AiOutlineHeart, AiOutlineEye } from "react-icons/ai";
+import { AiOutlineHeart, AiOutlineEye, AiTwotoneLike, AiFillEye } from "react-icons/ai";
 const Service = () => {
   let [isOpen, setIsOpen] = useState(false)
 
@@ -80,7 +80,7 @@ const Service = () => {
             My Latest Design & Development
           </span>
         </motion.div>
-      
+       
         <div className="grid grid-cols-1 lg:grid-cols-2" onClick={openModal}>
           {Categories.map((category, i) => (
             <motion.div
@@ -125,7 +125,8 @@ const Service = () => {
           ))}
         </div>
         <Transition appear show={isOpen} as={Fragment}>
-        <Dialog as="div" className="relative z-10" onClose={closeModal}>
+              <div className="fixed inset-0 bg-black/30">
+              <Dialog as="div" className="relative z-10" onClose={closeModal}>
           <Transition.Child
             as={Fragment}
             enter="ease-out duration-300"
@@ -135,7 +136,7 @@ const Service = () => {
             leaveFrom="opacity-100"
             leaveTo="opacity-0"
           >
-            <div className="fixed inset-0 bg-black bg-opacity-25" />
+            <div className="fixed inset-0 bg-black bg-opacity-70 backdrop-blur-sm" />
           </Transition.Child>
 
           <div className="fixed inset-0 overflow-y-auto">
@@ -157,20 +158,38 @@ const Service = () => {
                     <p className='text-xl text-gray-100 capitalize'>rownok mahbub</p>
                   </div>
                 </div>
-                <div className="absolute -right-4 -top-4 bg-red-200 p-3 rounded-full" onClick={closeModal}>
-                  <GiCrossedBones className='text-red-600 text-xl cursor-pointer'/>
+                <div className="absolute -right-4 -top-4 bg-red-200 p-3 rounded-full cursor-pointer" onClick={closeModal}>
+                  <GiCrossedBones className='text-red-600 text-xl '/>
                 </div>
                 <img className='w-full rounded-2xl' src="/Assets/big.png" alt="" />
                 <p className=' text-white text-4xl capitalize my-10 font-bebasneo'>lets Check the interactive prototype mode</p>
                 <iframe className='w-full rounded-2xl' min-width="300" height="580" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6MAWji1dzRBNJLeF4p53pE%2FFoodepi-Mobile-App-Templete%3Fpage-id%3D366%253A2089%26node-id%3D524%253A3911%26viewport%3D168%252C-136%252C0.08%26scaling%3Dscale-down%26starting-point-node-id%3D524%253A3911%26show-proto-sidebar%3D1" allowfullscreen></iframe>
-                <div className="flex">
-                    
+                <div className="bg-gray-900 py-5 mt-5 rounded-2xl">
+                <div className="bg-purple-600 hover:bg-purple-800 cursor-pointer flex justify-center items-center w-20 h-20 rounded-full mx-auto my-5">
+                    <AiTwotoneLike className="text-3xl text-white text-center"/>
                 </div>
+                <p className='text-2xl font-semibold text-white capitalize'>Ecommerce website for a company</p>
+                <div className="flex justify-center gap-10 mt-4">
+                <div className="flex gap-1 items-center text-gray-300">
+                  <AiTwotoneLike/>
+                  <p>12k</p>
+                </div>
+                <div className="flex gap-1 items-center text-gray-300">
+                  <AiFillEye/>
+                  <p>12k</p>
+                </div>
+                </div>
+              
+                </div>
+              
+
                 </Dialog.Panel>
               </Transition.Child>
             </div>
           </div>
         </Dialog>
+              </div>
+      
       </Transition>
         <div className="mx-auto container flex justify-center">
         <button className="font-medium text-[16px] flex items-center px-5 py-3 md:py-4 md:px-8 rounded-xl capitalize bg-gradient-to-r from-purple-300 to-purple-500 hover:from-pink-500 hover:to-yellow-500  relative gap-2 transition duration-300 hover:scale-105 text-white shadow-glass ">Load More
