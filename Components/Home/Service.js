@@ -151,32 +151,39 @@ const Service = () => {
                 leaveTo="opacity-0 scale-95"
               >
                 <Dialog.Panel className="relative w-full max-w-7xl transform  rounded-2xl bg-gradient-to-r from-slate-800 via-gray-600 to-slate-800 p-6 my-20 shadow-xl transition-all">
-                <div className="flex gap-4 mb-5">
-                  <img className="w-14 h-14 rounded-full object-cover" src="/Assets/rownokmahbub.jpg" alt="" />
+                <div className=" gap-4 mb-5 hidden md:flex">
+                  <img className="w-10 h-10 md:w-14 md:h-14 rounded-full object-cover" src="/Assets/rownokmahbub.jpg" alt="" />
                   <div className="flex flex-col items-start ">
-                    <p className='text-xl font-semibold text-white capitalize'>Ecommerce website for a company</p>
-                    <p className='text-xl text-gray-100 capitalize'>rownok mahbub</p>
+                    <p className=' text-base md:text-xl font-semibold text-white capitalize text-left'>Ecommerce website for a company</p>
+                    <p className='text-sm md:text-xl text-gray-100 capitalize'>rownok mahbub</p>
+                  </div>
+                </div>
+                <div className="flex flex-col gap-4 mb-5 justify-center items-center md:hidden">
+                  <img className="w-12 h-12 md:w-14 md:h-14 rounded-full object-cover" src="/Assets/rownokmahbub.jpg" alt="" />
+                  <div className="flex flex-col  ">
+                    <p className=' text-base md:text-xl font-semibold text-white capitalize text-left'>Ecommerce website for a company</p>
+                    <p className='text-sm md:text-xl text-gray-100 capitalize'>rownok mahbub</p>
                   </div>
                 </div>
                 <div className="absolute -right-4 -top-4 bg-red-200 p-3 rounded-full cursor-pointer" onClick={closeModal}>
-                  <GiCrossedBones className='text-red-600 text-xl '/>
+                  <GiCrossedBones className='text-red-600 text-lg md:text-xl '/>
                 </div>
                 <img className='w-full rounded-2xl' src="/Assets/big.png" alt="" />
-                <p className=' text-white text-4xl capitalize my-10 font-bebasneo'>lets Check the interactive prototype mode</p>
+                <p className=' text-white text-2xl md:text-4xl capitalize my-10 font-bebasneo'>lets Check the interactive prototype mode</p>
                 <iframe className='w-full rounded-2xl' min-width="300" height="580" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F6MAWji1dzRBNJLeF4p53pE%2FFoodepi-Mobile-App-Templete%3Fpage-id%3D366%253A2089%26node-id%3D524%253A3911%26viewport%3D168%252C-136%252C0.08%26scaling%3Dscale-down%26starting-point-node-id%3D524%253A3911%26show-proto-sidebar%3D1" allowfullscreen></iframe>
                 <div className="bg-gray-900 py-5 mt-5 rounded-2xl">
-                <div className="bg-purple-600 hover:bg-purple-800 cursor-pointer flex justify-center items-center w-20 h-20 rounded-full mx-auto my-5">
-                    <AiTwotoneLike className="text-3xl text-white text-center"/>
+                <div className="bg-purple-600 hover:bg-purple-800 cursor-pointer flex justify-center items-center w-12 h-12 md:w-20 md:h-20 rounded-full mx-auto my-5">
+                    <AiTwotoneLike className="md:text-3xl text-white text-center"/>
                 </div>
-                <p className='text-2xl font-semibold text-white capitalize'>Ecommerce website for a company</p>
+                <p className='md:text-2xl font-semibold text-white capitalize'>Ecommerce website for a company</p>
                 <div className="flex justify-center gap-10 mt-4">
                 <div className="flex gap-1 items-center text-gray-300">
                   <AiTwotoneLike/>
-                  <p>12k</p>
+                  <p className="text-sm md:text-base">12k</p>
                 </div>
                 <div className="flex gap-1 items-center text-gray-300">
                   <AiFillEye/>
-                  <p>12k</p>
+                  <p className="text-sm md:text-base">12k</p>
                 </div>
                 </div>
               
