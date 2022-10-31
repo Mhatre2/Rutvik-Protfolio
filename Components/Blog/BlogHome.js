@@ -15,7 +15,7 @@ const BlogHome = () => {
             <p className='text-sm sm:text-lg md:text-xl lg:text-xl hidden lg:flex'>Blog makes people happy <br />we love to read blog </p>
         </div>
         <div className="flex justify-around items-center">
-<GiWingedArrow className='text-4xl sm:text-6xl md:text-8xl lg:text-8xl text-white'/>
+<GiWingedArrow className='text-4xl sm:text-6xl md:text-8xl lg:text-8xl text-white hidden md:flex'/>
         <p className='text-6xl sm:text-6xl md:text-8xl lg:text-[200px] text-white capitalize flex justify-end gap-10'> <span className='font-clash italic text-purple-300 text-6xl sm:text-6xl md:text-8xl lg:text-[180px] '>Blog</span> Post</p>
         </div>
       

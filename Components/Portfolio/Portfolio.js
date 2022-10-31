@@ -50,7 +50,7 @@ const Portfolio = () => {
           
             <a href="https://rm-protfolio.vercel.app/" target='_blank' className="flex flex-col -space-y-1">
                 <p className="capitalize text-gray-400">website</p>
-                <p  className="text-gray-300">https://rm-protfolio.vercel.app/</p>
+                <p  className="text-gray-300">rm-protfolio.vercel.app</p>
             </a>
           </div>
           <div className="flex items-center gap-2 my-4">
@@ -85,7 +85,7 @@ const Portfolio = () => {
           
             <a target='_blank' href="https://www.facebook.com/rownokmahbub" className="flex flex-col -space-y-1">
                 <p className="capitalize text-gray-400">Facebook</p>
-                <p className="text-gray-300">www.facebook.com/rownokmahbub</p>
+                <p className="text-gray-300">facebook.com/rownokmahbub</p>
             </a>
           </div>
           <div className="flex items-center gap-2 my-4">
@@ -96,7 +96,7 @@ const Portfolio = () => {
           
             <a href="https://dribbble.com/rownok_mahbub" target='_blank' className="flex flex-col -space-y-1">
                 <p className="capitalize text-gray-400">Dribbble</p>
-                <p  className="text-gray-300">https://dribbble.com/rownok_mahbub</p>
+                <p  className="text-gray-300">dribbble.com/rownok_mahbub</p>
             </a>
           </div>
           <div className="flex items-center gap-2 my-4">
@@ -107,7 +107,7 @@ const Portfolio = () => {
           
             <a href="https://www.behance.net/rownokmahbub1" target='_blank' className="flex flex-col -space-y-1">
                 <p className="capitalize text-gray-400">Behance</p>
-                <p  className="text-gray-300">www.behance.net/rownokmahbub1</p>
+                <p  className="text-gray-300">behance.net/rownokmahbub1</p>
             </a>
           </div>
           <div className="flex items-center gap-2 my-4">

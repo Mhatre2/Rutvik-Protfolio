@@ -69,10 +69,10 @@ const Blog = () => {
             </div>
             </div>
            <Link href='blog/blogdetails'>
-           <p className="text-2xl font-semibold text-gray-100 mt-2 hover:underline">{category.title}</p>
+           <p className="text-lg md:text-2xl font-semibold text-gray-100 mt-2 hover:underline">{category.title}</p>
            </Link>
           
-            <p className="text-lg pt-2 text-gray-400">{category.text}</p>
+            <p className="text-sm md:text-lg pt-2 text-gray-400">{category.text}</p>
           </motion.div>
         ))}
       </div>

@@ -56,7 +56,7 @@ const FigmaPlugins = () => {
             <p className="text-5xl capitalize text-white font-bebasneo text-center">
               My favorite Figma plugins
             </p>
-            <p className="text-gray-400 max-w-xl text-center mt-3">
+            <p className="text-gray-400 max-w-xl text-sm md:text-base text-center mt-3">
               I use some useful figma plugins for designers of all levels that helps
               me speed up and spice up my designs.
             </p>

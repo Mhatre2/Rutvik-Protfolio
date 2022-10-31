@@ -36,9 +36,9 @@ const BlogHero = () => {
             <img src="/Assets/developmentblog.png" alt="" />
         </div>
         <div className="">
-            <p className='text-xl font-medium text-cyan-500 capitalize mb-2 md:mb-4'>technology</p>
+            <p className='md:text-xl font-medium text-cyan-500 capitalize mb-2 md:mb-4'>technology</p>
             <Link href='blog/blogdetails' className=''>
-                <p className='text-xl md:text-5xl font-medium text-white capitalize mb-2 md:mb-4 hover:underline cursor-pointer'>An Extraordinary WebGL Has Been Released By Great China Scientists</p>
+                <p className='text-lg md:text-5xl font-medium text-white capitalize mb-2 md:mb-4 hover:underline cursor-pointer'>An Extraordinary WebGL Has Been Released By Great China Scientists</p>
                 </Link>
             <p className='text-sm md:text-base font-medium text-slate-300 capitalize line-clamp-3'>Back in 2019, Gucci brought video games to its app With a new
 section called Gucci Arcade, inspired by creative director Alessandria

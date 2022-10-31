@@ -19,7 +19,7 @@ const Figma = () => {
             <p className="text-5xl capitalize text-white font-bebasneo">
               Figma with me
             </p>
-            <p className="text-gray-400 max-w-xl text-center mt-3">
+            <p className="text-gray-400 max-w-xl text-sm md:text-base text-center mt-3">
               I made some useful UI Kits for designers of all levels that helps
               you speed up and spice up your designs.
             </p>
