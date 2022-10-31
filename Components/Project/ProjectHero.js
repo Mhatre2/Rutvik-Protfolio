@@ -19,7 +19,7 @@ const ProjectHero = () => {
             Development Projects
           </span>
         </div>
-        <p className="text-[40px] lg:text-[50px] xl:text-[57px] font-bold leading-tight mt-5 sm:mt-0 text-gray-100">
+        <p className="text-[40px] lg:text-[50px] xl:text-[53px] font-bold leading-tight mt-5 sm:mt-0 text-gray-100">
           My projects of<br />
           Designing & Developing
         </p>

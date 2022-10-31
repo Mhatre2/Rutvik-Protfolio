@@ -25,13 +25,13 @@ const Hero = () => {
             UI/UX Designer  Developer 
           </span>
         </div>
-        <p className="text-[40px] lg:text-[50px] xl:text-[57px] font-bold leading-tight mt-5 sm:mt-0 text-gray-100">
+        <p className="text-[40px] lg:text-[50px] xl:text-[53px] font-bold leading-tight mt-5 sm:mt-0 text-gray-100">
           I'm Rownok Mahbub <br />
           Designer And Developer 
         </p>
         <p className="mt-5 md:text-md text-gray-400">
           I'm creative designer based in Bangladesh, and I'm very passionate and
-          dedicated to my <br className="hidden md:block" /> work.Your Satisfaction is my success
+          dedicated to my  work.Your Satisfaction is my success
         </p>
         <div className="flex gap-4 mt-10 items-center">
        
