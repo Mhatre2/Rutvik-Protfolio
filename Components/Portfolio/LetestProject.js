@@ -35,16 +35,16 @@ const LetestProject = () => {
               <div className="flex flex-col md:flex-row gap-5">
                 <img className="md:w-14 md:h-14 object-cover rounded-xl" src={ex.img} alt="" />
                 <div className="">
-                  <p className="text-2xl text-white font-medium">
+                  <p className="text-lg md:text-2xl text-white font-medium">
                    {ex.name}
                   </p>
-                  <p className="text-gray-400 ">
+                  <p className="text-gray-400 text-sm md:text-base text-justify">
                   {ex.description}
                   </p>
                   <div className='flex gap-2 items-center mt-2'>
                   
                         <RiLinkM className='text-cyan-300 text-lg'/>
-                        <a href={ex.link} className="text-cyan-300 hover:underline" target='_blank'>{ex.link}</a>
+                        <a href={ex.link} className="text-cyan-300 hover:underline text-xs md:text-base" target='_blank'>{ex.link}</a>
                     </div>
                 </div>
               </div>
