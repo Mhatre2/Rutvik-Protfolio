@@ -18,27 +18,27 @@ const ProtfolioService = () => {
     },
     {
       id: 2,
-      title: "UI/UX Design",
+      title: "UI Design",
       text: "I will research  creative ideas and find the best solution for you.",
       image: "/Assets/design.gif",
     },
     {
       id: 3,
-      title: "Develop",
+      title: "Web Develop",
       text: "I will research  creative ideas and find the best solution for you.",
       image: "/Assets/developer.gif",
     },
     {
       id: 4,
-      title: "Develop",
+      title: "UX Design",
       text: "I will research  creative ideas and find the best solution for you.",
-      image: "/Assets/developer.gif",
+      image: "/Assets/prototype.gif",
     },
     {
       id: 5,
-      title: "Develop",
+      title: "Prototype Design",
       text: "I will research  creative ideas and find the best solution for you.",
-      image: "/Assets/developer.gif",
+      image: "/Assets/wireframe.gif",
     },
     {
       id: 6,
