@@ -11,6 +11,7 @@ import Experience from "./Experience";
 import Skill from "./Skill";
 import LetestProject from "./LetestProject";
 import Tools from "./Tools";
+import Education from "./Education";
 const Portfolio = () => {
   return (
     <div className="container mx-auto py-24 animate__animated animate__backInUp animate__delay-.5s">
@@ -131,8 +132,8 @@ const Portfolio = () => {
          
           
             <a target='_blank' href="https://www.facebook.com/rownokmahbub" className="flex flex-col -space-y-1">
-                <p className="capitalize text-gray-400">Facebook</p>
-                <p className="text-gray-300">www.facebook.com/rownokmahbub</p>
+                <p className="capitalize text-gray-400">English</p>
+                <p className="text-gray-300">Fluent</p>
             </a>
           </div>
           <div className="flex items-center gap-2 my-4">
@@ -142,8 +143,8 @@ const Portfolio = () => {
          
           
             <a href="https://dribbble.com/rownok_mahbub" target='_blank' className="flex flex-col -space-y-1">
-                <p className="capitalize text-gray-400">Dribbble</p>
-                <p  className="text-gray-300">https://dribbble.com/rownok_mahbub</p>
+                <p className="capitalize text-gray-400">Bangla</p>
+                <p  className="text-gray-300">Native</p>
             </a>
           </div>
           <div className="flex items-center gap-2 my-4">
@@ -153,8 +154,8 @@ const Portfolio = () => {
          
           
             <a href="https://www.behance.net/rownokmahbub1" target='_blank' className="flex flex-col -space-y-1">
-                <p className="capitalize text-gray-400">Behance</p>
-                <p  className="text-gray-300">www.behance.net/rownokmahbub1</p>
+                <p className="capitalize text-gray-400">Hindi</p>
+                <p  className="text-gray-300">Fluent</p>
             </a>
           </div>
           <div className="flex items-center gap-2 my-4">
@@ -164,8 +165,8 @@ const Portfolio = () => {
          
           
             <a href="https://www.linkedin.com/in/mehbubur-rahman-rownok/" target='_blank' className="flex flex-col -space-y-1">
-                <p className="capitalize text-gray-400">LinkedIn</p>
-                <p  className="text-gray-300">in/mehbubur-rahman-rownok</p>
+                <p className="capitalize text-gray-400">Urdu</p>
+                <p  className="text-gray-300">Conversational</p>
             </a>
           </div>
         </div>
@@ -173,7 +174,9 @@ const Portfolio = () => {
           <Experience/>
           <Skill/>
           <LetestProject/>
+          <Education/>
           <Tools/>
+      
         </div>
       </div>
     </div>
