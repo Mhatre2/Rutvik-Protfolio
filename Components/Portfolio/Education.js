@@ -43,12 +43,12 @@ const Education = () => {
                  
                   <div className="flex justify-between">
                     <div className="flex flex-col ">
-                    <p className="text-gray-300 text-lg font-medium">GPA</p>
-                    <p className="text-white text-lg font-semibold">{ex.gpa}</p>
+                    <p className="text-gray-300 text-base font-medium">GPA</p>
+                    <p className="text-white text-base font-semibold">{ex.gpa}</p>
                     </div>
                     <div className="flex flex-col text-end">
-                    <p className="text-gray-300 text-lg font-medium">Passing Year</p>
-                    <p className="text-white text-lg font-semibold">{ex.passingyear}</p>
+                    <p className="text-gray-300 text-base font-medium">Passing Year</p>
+                    <p className="text-white text-base font-semibold">{ex.passingyear}</p>
                     </div>
                   </div>
                   <div className='flex gap-2 items-center mt-2'>
