@@ -7,61 +7,11 @@ const Nav = () => {
   return (
     <div>
       <nav className="">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-16 w-full fixed top-0 z-50 bg-gradient-to-r from-[#010113] via-[#130227] to-[#010113]/80  drop-shadow-lg border-b border-purple-400">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-16 w-full fixed top-0 z-50 ">
           <div className="flex items-center justify-between h-16">
-            <Link href="/">
-              <div className="flex-shrink-0 cursor-pointer">
-                <p className="font-bold text-2xl animate__animated animate__fadeInDown animate__delay-.5s text-white">
-                  {" "}
-                  RM{" "}
-                  <span
-                    className="text-purple-500
-            "
-                  >
-                    .
-                  </span>
-                </p>
-              </div>
-            </Link>
-
             <div className="flex items-center">
               <div className="hidden md:block">
                 <div className="ml-10  flex items-baseline space-x-10 animate__animated animate__fadeInDown animate__delay-.5s">
-                  <Link href="uiux">
-                    <p className="font-medium text-[18px] text-white cursor-pointer">
-                      UI
-                    </p>
-                  </Link>
-
-                  <Link href="uiux">
-                    <p className="font-medium text-[18px] text-white cursor-pointer">
-                      UX
-                    </p>
-                  </Link>
-
-                  <Link href="blog">
-                    <p className="font-medium text-[18px] text-white cursor-pointer">
-                      Blog
-                    </p>
-                  </Link>
-
-                  <Link href="portfolio">
-                    <p className="font-medium text-[18px] text-white cursor-pointer">
-                      Portfolio
-                    </p>
-                  </Link>
-
-                  <Link href="projects">
-                    <p className="font-medium text-[18px] text-white cursor-pointer">
-                      Projects
-                    </p>
-                  </Link>
-                  <a
-                    href="cv"
-                    className="font-medium text-[18px] text-gray-200 py-2 px-4  capitalize bg-gradient-to-r from-purple-300 to-purple-500 hover:from-pink-500 hover:to-yellow-500 rounded-[20px] transition duration-300 hover:scale-105 "
-                  >
-                    Download CV
-                  </a>
                 </div>
               </div>
             </div>
@@ -127,41 +77,6 @@ const Nav = () => {
                 ref={ref}
                 className="w-full px-2 pt-20 pb-5 space-y-3 sm:px-3 flex flex-col items-center bg-gradient-to-r from-[#010113] via-[#130227] to-[#010113]"
               >
-                <Link href="uiux">
-                  <p className="font-medium text-[18px] text-white cursor-pointer">
-                    UI
-                  </p>
-                </Link>
-
-                <Link href="uiux">
-                  <p className="font-medium text-[18px] text-white cursor-pointer">
-                    UX
-                  </p>
-                </Link>
-
-                <Link href="blog">
-                  <p className="font-medium text-[18px] text-white cursor-pointer">
-                    Blog
-                  </p>
-                </Link>
-
-                <Link href="portfolio">
-                  <p className="font-medium text-[18px] text-white cursor-pointer">
-                    Portfolio
-                  </p>
-                </Link>
-
-                <Link href="projects">
-                  <p className="font-medium text-[18px] text-white cursor-pointer">
-                    Projects
-                  </p>
-                </Link>
-                <a
-                  href="cv"
-                  className="font-medium text-[18px] text-gray-200 py-2 px-4  capitalize bg-gradient-to-r from-orange-300 to-orange-500 hover:from-pink-500 hover:to-yellow-500 rounded-[20px] transition duration-300 hover:scale-105 "
-                >
-                  Download CV
-                </a>
               </div>
             </div>
           )}

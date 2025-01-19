@@ -4,11 +4,8 @@ const BlogDetails = () => {
   return (
     <div className='container mx-auto py-20 animate__animated animate__backInUp animate__delay-.5s '>
       <div className="relative">
-        <img className='h-[500px] w-full object-cover rounded-xl overflow-hidden' src="/Assets/developmentblog.png" alt="hvh" />
+        <img className='h-[500px] w-[500px] object-cover rounded-xl overflow-hidden' src="/Assets/jurassic.png" alt="hvh" />
        
-       
-      
-     
        <p className='absolute right-4 rounded-full top-4 text-white font-medium text-sm md:text-xl px-4 capitalize shadow-2xl py-2 bg-gradient-to-r from-cyan-500 to-blue-500'>technology</p>
       </div>
       
