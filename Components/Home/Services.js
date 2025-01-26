@@ -17,7 +17,7 @@ const Services = () => {
           id: 2,
           title: "UI/UX Design",
         
-          text:"I will create a outstanding creative design including your needs and also do some research for your project and more.",
+          text:"I will craft exceptional user interfaces and experiences, ensuring they align with your needs, while conducting thorough research to elevate your project to the next level.",
           image: "/Assets/uiux.gif",
         },
         

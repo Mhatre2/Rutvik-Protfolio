@@ -19,32 +19,20 @@ const ProtfolioService = () => {
     {
       id: 2,
       title: "UI Design",
-      text: "I will research  creative ideas and find the best solution for you.",
+      text: "I will craft visually stunning and user-friendly interfaces to deliver the best design solution for you.",
       image: "/Assets/design.gif",
-    },
-    {
-      id: 3,
-      title: "Web Develop",
-      text: "I will research  creative ideas and find the best solution for you.",
-      image: "/Assets/developer.gif",
     },
     {
       id: 4,
       title: "UX Design",
-      text: "I will research  creative ideas and find the best solution for you.",
+      text: "I will analyze user needs and create intuitive experiences to ensure the most effective design solution for you.",
       image: "/Assets/prototype.gif",
     },
     {
       id: 5,
       title: "Prototype Design",
-      text: "I will research  creative ideas and find the best solution for you.",
+      text: "I will develop interactive prototypes that bring ideas to life and refine the best solution for you.",
       image: "/Assets/wireframe.gif",
-    },
-    {
-      id: 6,
-      title: "Develop",
-      text: "I will research  creative ideas and find the best solution for you.",
-      image: "/Assets/developer.gif",
     },
   ];
   return (
@@ -55,10 +43,7 @@ const ProtfolioService = () => {
              <motion.div className="flex items-center gap-3"  variants={leftAnimation}
                 animate={controls}
                 transition={{ delay: 0.1, type: "tween" }}>
-          <hr className="w-10 bg-white "/>
-          <span className="lg:text-[18px] font-medium text-gray-400 capitalize">
-         These are the main skills
-          </span>
+          
         </motion.div>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-5 lg:px-20 py-10">
         {Categories.map((category, i) => (
